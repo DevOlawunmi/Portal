@@ -1,4 +1,4 @@
-package azure.net.hfp_recoveries;
+package azure.net.hfp.recoveries;
 
 import static org.junit.Assert.assertTrue;
 

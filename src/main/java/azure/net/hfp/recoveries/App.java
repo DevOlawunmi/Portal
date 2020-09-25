@@ -1,4 +1,4 @@
-package azure.net.hfp_recoveries;
+package azure.net.hfp.recoveries;
 
 /**
  * Hello world!
