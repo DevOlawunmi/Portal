@@ -41,8 +41,8 @@ public class Browsers extends DriverLibrary {
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 
     }
-    public void closeBrowser(){
-        driver.manage().deleteAllCookies();
-        driver.quit();
+   // public void closeBrowser(){
+     //   driver.manage().deleteAllCookies();
+       // driver.quit();
     }
-}
+

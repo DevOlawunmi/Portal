@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/hook/Hook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/common/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/common/Browsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/hook/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/hook/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601608837473</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hook added">
+      <created>1601609448203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601609448203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Glue updated with hook">
+      <created>1601609574974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601609574974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -129,37 +147,39 @@
     <MESSAGE value="Submit LBA feature file added" />
     <MESSAGE value="Steps Definition successfully generated" />
     <MESSAGE value="Driver class and Browser class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver class and Browser class added" />
+    <MESSAGE value="Hook added" />
+    <MESSAGE value="Glue updated with hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Glue updated with hook" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1601609447676">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1601609574424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601609447676" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601011181619">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601609574424" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601613706975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601011181619" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601011181619">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601613706975" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601613706975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601011181619" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601011181618">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601613706975" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601613706974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601011181618" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601011181619">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601613706974" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601613706975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601011181619" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601613706975" />
     <state x="563" y="124" key="RollbackChangesDialog" timestamp="1601609551028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1601609450411">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1601609576999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601609450411" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601609576999" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1601607688828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

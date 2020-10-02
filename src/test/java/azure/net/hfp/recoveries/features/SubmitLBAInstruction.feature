@@ -4,6 +4,7 @@ Feature: Submit an LBA instruction
   So I can submit an LBA Instruction
   Background:
     Given I navigate to Recoveries portal
+    And I enter my username
     And I enter my password
 
   Scenario Outline: User Can Submit LBA Instruction

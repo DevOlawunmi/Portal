@@ -1,17 +1,26 @@
 package azure.net.hfp.recoveries.stepDefinitions;
 
+import azure.net.hfp.recoveries.pages.BasePage;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class SubmitLBASteps {
+public class SubmitLBASteps extends BasePage {
     @Given("I navigate to Recoveries portal")
     public void i_navigate_to_recoveries_portal() {
+        launchBrowser();
+    }
+
+    @And("I enter my username")
+    public void iEnterMyUsername() {
+        enterUserName("Ola.ajibola@h-f.co.uk");
     }
 
 
     @Given("I enter my password")
     public void i_enter_my_password() {
+        enterPassword("@Fisherman02");
 
     }
 
@@ -100,4 +109,6 @@ public class SubmitLBASteps {
 
 
     }
+
+
 }
