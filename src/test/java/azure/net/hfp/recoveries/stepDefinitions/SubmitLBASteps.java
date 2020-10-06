@@ -1,27 +1,30 @@
 package azure.net.hfp.recoveries.stepDefinitions;
 
 import azure.net.hfp.recoveries.pages.BasePage;
+import azure.net.hfp.recoveries.pages.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
 public class SubmitLBASteps extends BasePage {
+    HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     @Given("I navigate to Recoveries portal")
     public void i_navigate_to_recoveries_portal() {
-        launchBrowser();
+        homePage.launchURL();
     }
 
     @And("I enter my username")
     public void iEnterMyUsername() {
-        enterUserName("Ola.ajibola@h-f.co.uk");
+        homePage.enterUserName("Ola.ajibola@h-f.co.uk");
     }
 
 
     @Given("I enter my password")
-    public void i_enter_my_password() {
-        enterPassword("@Fisherman01");
-
+    public void i_enter_my_password() throws InterruptedException {
+        homePage.enterPassword("@Fisherman01");
+Thread.sleep(50);
     }
 
     @When("I enter a {string}")

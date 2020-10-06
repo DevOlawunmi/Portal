@@ -47,7 +47,7 @@ public class Browsers extends DriverLibrary {
 
     public void closeBrowser() {
         driver.manage().deleteAllCookies();
-        // driver.quit();
+         driver.quit();
     }
 
 }

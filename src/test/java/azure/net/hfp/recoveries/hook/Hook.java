@@ -20,7 +20,7 @@ public class Hook extends Browsers {
 
     @After
     public void tearDown() {
-       // closeBrowser();
+        closeBrowser();
         if (scenario.isFailed()) {
             try {
                 byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
