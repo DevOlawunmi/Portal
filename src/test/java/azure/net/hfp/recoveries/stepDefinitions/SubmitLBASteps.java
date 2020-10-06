@@ -112,6 +112,13 @@ Thread.sleep(50);
 
 
     }
+    @And("I click on LBA Instruction")
+    public void iClickOnLBAInstruction() {
+        homePage.clickOnLBAInstruction();
+    }
 
-
+    @And("I click on the sign on button")
+    public void iClickOnTheSignOnButton() {
+        homePage.clickOnSignOnButton();
+    }
 }
