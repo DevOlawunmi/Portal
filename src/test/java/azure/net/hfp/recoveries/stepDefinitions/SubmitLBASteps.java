@@ -20,7 +20,7 @@ public class SubmitLBASteps extends BasePage {
 
     @Given("I enter my password")
     public void i_enter_my_password() {
-        enterPassword("@Fisherman02");
+        enterPassword("@Fisherman01");
 
     }
 

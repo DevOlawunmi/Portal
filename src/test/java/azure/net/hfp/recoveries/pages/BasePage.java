@@ -1,13 +1,14 @@
 package azure.net.hfp.recoveries.pages;
 
 import azure.net.hfp.recoveries.common.DriverLibrary;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage extends DriverLibrary {
-    public String BASE_URL = "https://recoveriesapp.h-f.co.uk/";
+    public String BASE_URL = "https://hfp-recoveries.azureedge.net/";
     @FindBy(id = "password")
     private WebElement passwordBox;
     @FindBy(id = "username")
@@ -15,8 +16,10 @@ public class BasePage extends DriverLibrary {
 
     private String userPassword = "Fisherman02";
 
-    public void launchBrowser() {
+    public void launchURL() {
         driver.navigate().to(BASE_URL);
+        driver.getTitle();
+        driver.findElement(By.xpath("/html/body/div/div/div[1]"));
     }
 
     public void waitForElementToBeDisplayed(WebElement element) {
