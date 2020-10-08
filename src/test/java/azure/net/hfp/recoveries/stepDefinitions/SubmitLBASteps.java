@@ -2,6 +2,7 @@ package azure.net.hfp.recoveries.stepDefinitions;
 
 import azure.net.hfp.recoveries.pages.BasePage;
 import azure.net.hfp.recoveries.pages.HomePage;
+import azure.net.hfp.recoveries.pages.LBAPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -10,13 +11,16 @@ import org.openqa.selenium.support.PageFactory;
 
 public class SubmitLBASteps extends BasePage {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+    LBAPage lbaPage = PageFactory.initElements(driver, LBAPage.class);
     @Given("I navigate to Recoveries portal")
-    public void i_navigate_to_recoveries_portal() {
+    public void i_navigate_to_recoveries_portal()
+    {
         homePage.launchURL();
     }
 
     @And("I enter my username")
-    public void iEnterMyUsername() {
+    public void iEnterMyUsername()
+    {
         homePage.enterUserName("Ola.ajibola@h-f.co.uk");
     }
 
@@ -28,12 +32,15 @@ Thread.sleep(50);
     }
 
     @When("I enter a {string}")
-    public void i_enter_a(String string) {
+    public void i_enter_a(String reference) {
+
+        lbaPage.enterReferenceNumber(reference);
 
     }
 
     @When("I select the correct {string} from the dropdown list")
-    public void i_select_the_correct_from_the_dropdown_list(String string) {
+    public void i_select_the_correct_from_the_dropdown_list(String zurichSystem) {
+        lbaPage.selectZurichSystem(zurichSystem);
 
     }
 
@@ -113,12 +120,20 @@ Thread.sleep(50);
 
     }
     @And("I click on LBA Instruction")
-    public void iClickOnLBAInstruction() {
+    public void iClickOnLBAInstruction() throws InterruptedException {
         homePage.clickOnLBAInstruction();
     }
 
     @And("I click on the sign on button")
     public void iClickOnTheSignOnButton() {
-        homePage.clickOnSignOnButton();
+        lbaPage.clickOnSignOnButton();
+    }
+
+
+
+    @Then("LBA {string} is displayed")
+    public void lbaIsDisplayed(String LBA) {
+        lbaPage.isCorrectUrlDisplayedForLBA(LBA);
+        lbaPage.isLBAPageDisplayed(LBA);
     }
 }

@@ -20,9 +20,14 @@ public class BasePage extends DriverLibrary {
 
     }
 
+
     public void waitForElementToBeDisplayed(WebElement element) {
         wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
-
+    public void selectByText(WebElement element,String text)
+    {
+        select = new Select(element);
+        select.selectByVisibleText(text);
+}
 }
