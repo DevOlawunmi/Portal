@@ -28,7 +28,7 @@ public class SubmitLBASteps extends BasePage {
     @Given("I enter my password")
     public void i_enter_my_password() throws InterruptedException {
         homePage.enterPassword("@Fisherman01");
-Thread.sleep(50);
+//Thread.sleep(50);
     }
 
     @When("I enter a {string}")
@@ -42,11 +42,12 @@ Thread.sleep(50);
     public void i_select_the_correct_from_the_dropdown_list(String zurichSystem) {
         lbaPage.selectZurichSystem(zurichSystem);
 
+
     }
 
     @When("I click on next step")
     public void i_click_on_next_step() {
-
+      lbaPage.clickOnNextButton1();
     }
 
     @When("I enter the {string}")

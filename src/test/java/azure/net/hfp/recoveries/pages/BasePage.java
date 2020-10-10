@@ -28,6 +28,10 @@ public class BasePage extends DriverLibrary {
     public void selectByText(WebElement element,String text)
     {
         select = new Select(element);
-        select.selectByVisibleText(text);
+        //select.getFirstSelectedOption();
+}
+
+public void waitForElementToBeClickable(WebElement element){
+        wait.until((ExpectedConditions.elementToBeClickable(element)));
 }
 }

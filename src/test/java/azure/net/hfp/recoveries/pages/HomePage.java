@@ -33,10 +33,10 @@ public class HomePage extends BasePage {
         passwordBox.sendKeys(userPassword);
     }
 
-    public void clickOnLBAInstruction() throws InterruptedException {
-        Thread.sleep(1000);
+    public void clickOnLBAInstruction()  {
 
-        waitForElementToBeDisplayed(LBAInstructionButton);
+//ngWebDriver.waitForAngularRequestsToFinish();
+        waitForElementToBeClickable(LBAInstructionButton);
         LBAInstructionButton.click();
         new LBAPage(driver);
 
