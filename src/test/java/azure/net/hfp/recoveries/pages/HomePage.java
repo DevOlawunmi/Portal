@@ -12,8 +12,9 @@ public class HomePage extends BasePage {
         DriverLibrary.driver = driver;
         PageFactory.initElements(driver,this);
     }
+
     @FindBy(id = "password")
-    private WebElement passwordBox;
+    private WebElement passwordField;
     @FindBy(id = "username")
     private WebElement userNameField;
     @FindBy(xpath = "/html/body/app-root/app-content-wrapper/app-landing/div/div/div[2]/div/div[1]/button")
@@ -28,18 +29,14 @@ public class HomePage extends BasePage {
     }
 
     public void enterPassword(String userPassword) {
-        waitForElementToBeDisplayed(passwordBox);
-        passwordBox.clear();
-        passwordBox.sendKeys(userPassword);
+        waitForElementToBeDisplayed(passwordField);
+        passwordField.clear();
+        passwordField.sendKeys(userPassword);
     }
 
     public void clickOnLBAInstruction()  {
-
-//ngWebDriver.waitForAngularRequestsToFinish();
         waitForElementToBeClickable(LBAInstructionButton);
-        LBAInstructionButton.click();
         new LBAPage(driver);
-
     }
 
 

@@ -13,7 +13,7 @@ Feature: Submit an LBA instruction
 
   Scenario Outline: User Can Submit LBA Instruction
     When I enter a "<reference>"
-    And I select the correct "<Zurich system>" from the dropdown list
+    And I select the correct Zurich system from the dropdown list
     And I click on next step
     And I enter the "<Accident date>"
     And I select policyholder "<title>"
