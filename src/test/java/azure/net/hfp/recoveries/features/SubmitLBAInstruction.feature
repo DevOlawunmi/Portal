@@ -15,29 +15,29 @@ Feature: Submit an LBA instruction
     When I enter a "<reference>"
     And I select the correct Zurich system from the dropdown list
     And I click on next step
-    And I enter the "<Accident date>"
-    And I select policyholder "<title>"
-    And I enter the policyholder "<firstName>"
-    And I enter the policyholder "<lastName>"
-    And I enter the "<Outlay>"
+    And I enter the "<accidentDate>"
+    And I select policyholder title
+    And I enter the policyholder firstName "<firstName>"
+    And I enter the policyholder lastName "<lastName>"
+    And I enter the outlay "<Outlay>"
     And I click on the next step
-    And I select "<thirdPartyTitle>"
-    And I enter the "<thirdPartyFirstName>"
-    And I enter the "<thirdPartyLastName>"
+    And I select third Party Title
+    And I enter the thirdPartyFirstName "<thirdPartyFirstName>"
+    And I enter the thirdPartyLastName "<thirdPartyLastName>"
     And I select Yes to question 'Is third party Insured?'
     And I select No to do you know TP address
     And I select Yes to knowing TP vehicle reg
-    And I enter "<thirdPartyVRN>"
+    And  I enter the third party VRN "<thirdPartyVRN>"
     And I click on the next step again
     And I enter "<thirdPartyInsurer>"
-    And I enter the "<insurerReference>"
+    And I enter the insurer reference "<insurerReference>"
     And I select Yes to Ripe insurer
     Then the summary page is displayed
     And I click on the submit button
     And my submission reference is displayed
 
     Examples:
-      |password     | reference | Zurich system | Accident date |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
+      |password     | reference | Zurich system | accidentDate |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
       |Fisherman01    |ZACREF455  |ZAC            |22/05/2018   |Mr    |Daniel     |Dyer      |5400  |Ms   |Sandy                |Jones               |VN60PKF                 |AXA INSURANCE UK PLC|AXA567       |
 
 

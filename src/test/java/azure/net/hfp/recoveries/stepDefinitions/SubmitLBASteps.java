@@ -51,23 +51,52 @@ public class SubmitLBASteps extends BasePage {
     }
 
     @When("I enter the {string}")
-    public void i_enter_the(String string) {
+    public void i_enter_the(String accidentDate) {
+lbaPage.enterAccidentDate(accidentDate);
+    }
+    @And("I select third Party Title")
+    public void iSelectThirdPartyTitle() {
 
     }
-
-    @When("I select policyholder {string}")
-    public void i_select_policyholder(String string) {
-
+    @And("I select policyholder title")
+    public void iSelectPolicyholderTitle() {
+        lbaPage.selectPolicyholderTitle();
     }
 
-    @When("I enter the policyholder {string}")
-    public void i_enter_the_policyholder(String string) {
 
+    @When("I enter the policyholder firstName {string}")
+    public void i_enter_the_policyholder_firstName(String firstName) {
+        lbaPage.enterPolicyholderFirstName(firstName);
+
+    }
+    @When("I enter the policyholder lastName {string}")
+    public void i_enter_the_policyholder_lastName(String lastName) {
+        lbaPage.enterPolicyholderLastName(lastName);
+
+
+    }
+    @And("I enter the outlay {string}")
+    public void iEnterTheOutlay(String outlay) {
+        lbaPage.enterOutlayAmount(outlay);
     }
 
     @When("I click on the next step")
     public void i_click_on_the_next_step() {
+        lbaPage.clickOnTheNextStepButton();
 
+    }
+    @And("I select thirdPartyTitle {string}")
+    public void iSelectThirdPartyTitle(String arg0) {
+
+    }
+
+    @And("I enter the thirdPartyFirstName {string}")
+    public void iEnterTheThirdPartyFirstName(String arg0) {
+
+    }
+
+    @And("I enter the thirdPartyLastName {string}")
+    public void iEnterTheThirdPartyLastName(String arg0) {
     }
 
     @When("I select {string}")
@@ -94,10 +123,16 @@ public class SubmitLBASteps extends BasePage {
     public void i_enter(String string) {
 
     }
+    @And("I enter the third party VRN {string}")
+    public void iEnterTheThirdPartyVRN(String arg0) {
+    }
 
     @When("I click on the next step again")
     public void i_click_on_the_next_step_again() {
 
+    }
+    @And("I enter the insurer reference {string}")
+    public void iEnterTheInsurerReference(String arg0) {
     }
 
     @When("I select Yes to Ripe insurer")
@@ -137,6 +172,7 @@ public class SubmitLBASteps extends BasePage {
         lbaPage.isCorrectUrlDisplayedForLBA(LBA);
         lbaPage.isLBAPageDisplayed(LBA);
     }
+
 
 
 }
