@@ -56,6 +56,7 @@ lbaPage.enterAccidentDate(accidentDate);
     }
     @And("I select third Party Title")
     public void iSelectThirdPartyTitle() {
+        lbaPage.selectThirdPartyTitle();
 
     }
     @And("I select policyholder title")
@@ -83,14 +84,7 @@ lbaPage.enterAccidentDate(accidentDate);
     @When("I click on the next step")
     public void i_click_on_the_next_step() {
         lbaPage.clickOnTheNextStepButton();
-
     }
-    @And("I select thirdPartyTitle {string}")
-    public void iSelectThirdPartyTitle(String arg0) {
-        lbaPage.selectThirdPartyTitle();
-
-    }
-
     @And("I enter the thirdPartyFirstName {string}")
     public void iEnterTheThirdPartyFirstName(String thirdPartyFirstName) {
         lbaPage.enterThirdPartyFirstName(thirdPartyFirstName);
@@ -99,7 +93,7 @@ lbaPage.enterAccidentDate(accidentDate);
 
     @And("I enter the thirdPartyLastName {string}")
     public void iEnterTheThirdPartyLastName(String thirdPartyLastName) {
-        lbaPage.enterThirdPartyLastName(thirdPartyLastName);
+       lbaPage.enterThirdPartyLastName(thirdPartyLastName);
     }
 
     @When("I select {string}")
@@ -125,10 +119,7 @@ lbaPage.selectYes2();
 
     }
 
-    @When("I enter {string}")
-    public void i_enter(String string) {
 
-    }
     @And("I enter the third party VRN {string}")
     public void iEnterTheThirdPartyVRN(String thirdPartyVRN) {
         lbaPage.enterVehicleVRN(thirdPartyVRN);
@@ -136,14 +127,23 @@ lbaPage.selectYes2();
 
     @And("I click on VRN Search")
     public void iClickOnVRNSearch() {
-        lbaPage.lookUpVRN();
+       lbaPage.lookUpVRN();
     }
     @When("I click on the next step again")
     public void i_click_on_the_next_step_again() {
+        lbaPage.clickOnNextButton3();
+
+    }
+
+    @When("I enter {string}")
+    public void i_enter(String thirdPartyInsurer) {
+       lbaPage.enterThirdPartyInsurer(thirdPartyInsurer);
 
     }
     @And("I enter the insurer reference {string}")
-    public void iEnterTheInsurerReference(String arg0) {
+    public void iEnterTheInsurerReference(String insurerReference) {
+        lbaPage.enterInsurerReference(insurerReference);
+
     }
 
     @When("I select Yes to Ripe insurer")

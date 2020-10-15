@@ -192,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602669269653</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="VRN Lookup successful">
+      <created>1602761903900</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602761903900</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,33 +218,34 @@
     <MESSAGE value="Click on LBA Instruction pass" />
     <MESSAGE value="Zurich System successfully selected" />
     <MESSAGE value="Outlay amount entered" />
-    <option name="LAST_COMMIT_MESSAGE" value="Outlay amount entered" />
+    <MESSAGE value="VRN Lookup successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="VRN Lookup successful" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601980349991" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1602669268825">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1602761902852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602669268825" />
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1602761822374">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602761902852" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1602769287192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602761822374" />
-    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1602761822374">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602769287192" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1602769287191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602761822374" />
-    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1602761822374">
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602769287191" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1602769287191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602761822374" />
-    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1602761822374">
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602769287191" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1602769287191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602761822374" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602769287191" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -246,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1602669272374">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1602761907330">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602669272374" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602761907330" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602225610035">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

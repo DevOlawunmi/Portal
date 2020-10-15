@@ -1,9 +1,7 @@
 package azure.net.hfp.recoveries.pages;
 
-import io.cucumber.java.en_old.Ac;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -36,7 +34,7 @@ public class LBAPage extends BasePage {
     @FindBy (xpath = "//*[@id=\"formly_19_appInput_outlayAmount_4\"]")
     private WebElement outlayAmountField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
-    private WebElement getNextButton1;
+    private WebElement nextButton2;
     @FindBy (xpath = "//*[@id=\"formly_26_appStaticSelect_title_0\"]/div")
     private WebElement thirdPartyTitleField;
     @FindBy (xpath = "//*[@id=\"formly_26_appInput_firstName_1\"]")
@@ -45,7 +43,7 @@ public class LBAPage extends BasePage {
     private WebElement thirdPartyLastNameField;
     @FindBy (xpath = "//*[@id=\"formly_28_appRadio_isTPVInsured_0_0-input\"]")
     private WebElement yesRadioButton;
-    @FindBy (xpath = "//*[@id=\"formly_44_appRadio_haveGotDetails_0_1-input\"]")
+    @FindBy (xpath = "//*[@id=\"formly_28_appRadio_isTPDAddress_1_1-input\"]")
     private WebElement noRadioButton;
     @FindBy (xpath = "//*[@id=\"formly_44_appRadio_haveGotDetails_0_0-input\"]")
     private WebElement yesRadioButton2;
@@ -53,6 +51,12 @@ public class LBAPage extends BasePage {
     private WebElement VRNfield;
     @FindBy( xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[4]/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/formly-group/formly-field[1]/app-button-wrapper/div[1]/div/button")
     private WebElement lookUpVRNButton;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextButton3;
+    @FindBy (xpath = "//*[@id=\"formly_56_appSelect_name_0\"]")
+    private WebElement thirdPartyInsurerField;
+    @FindBy (xpath = "//*[@id=\"formly_68_appInput_reference_3\"]")
+    private WebElement insurerReferenceField;
 
     public LBAPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -71,7 +75,7 @@ public class LBAPage extends BasePage {
     }
 
     public void enterReferenceNumber(String reference){
-       // waitForElementToBeDisplayed(referenceField);
+       waitForElementToBeDisplayed(referenceField);
         referenceField.sendKeys(reference);
     }
 
@@ -121,13 +125,15 @@ public class LBAPage extends BasePage {
     }
 
     public void clickOnTheNextStepButton(){
-        getNextButton1.click();
+        nextButton2.click();
     }
 
     public void selectThirdPartyTitle(){
-        WebDriverWait wait1 = new WebDriverWait(driver, 10);
-        WebElement thirdPartyTitleField = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[1]/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/app-input-field/div/mat-form-field/div/div[1]/div[3]")));
-        thirdPartyTitleField.click();
+
+        driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]/div/div[1]")).click();
+        WebElement element3 = driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]/div/div[1]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element3).click().perform();
 
     }
     public void enterThirdPartyFirstName(String thirdPartyFirstName){
@@ -162,5 +168,17 @@ public class LBAPage extends BasePage {
     public void lookUpVRN(){
         lookUpVRNButton.click();
     }
+ public void clickOnNextButton3(){
+        nextButton3.click();
+ }
 
+ public void enterThirdPartyInsurer(String thirdPartyInsurer){
+        thirdPartyInsurerField.sendKeys(thirdPartyInsurer);
+
+ }
+
+ public void enterInsurerReference(String insurerReference){
+        insurerReferenceField.sendKeys(insurerReference);
+
+ }
 }
