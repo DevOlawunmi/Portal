@@ -28,6 +28,7 @@ Feature: Submit an LBA instruction
     And I select No to do you know TP address
     And I select Yes to knowing TP vehicle reg
     And  I enter the third party VRN "<thirdPartyVRN>"
+    And I click on VRN Search
     And I click on the next step again
     And I enter "<thirdPartyInsurer>"
     And I enter the insurer reference "<insurerReference>"

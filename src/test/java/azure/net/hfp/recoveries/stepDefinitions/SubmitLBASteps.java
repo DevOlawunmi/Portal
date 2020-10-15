@@ -87,16 +87,19 @@ lbaPage.enterAccidentDate(accidentDate);
     }
     @And("I select thirdPartyTitle {string}")
     public void iSelectThirdPartyTitle(String arg0) {
+        lbaPage.selectThirdPartyTitle();
 
     }
 
     @And("I enter the thirdPartyFirstName {string}")
-    public void iEnterTheThirdPartyFirstName(String arg0) {
+    public void iEnterTheThirdPartyFirstName(String thirdPartyFirstName) {
+        lbaPage.enterThirdPartyFirstName(thirdPartyFirstName);
 
     }
 
     @And("I enter the thirdPartyLastName {string}")
-    public void iEnterTheThirdPartyLastName(String arg0) {
+    public void iEnterTheThirdPartyLastName(String thirdPartyLastName) {
+        lbaPage.enterThirdPartyLastName(thirdPartyLastName);
     }
 
     @When("I select {string}")
@@ -106,16 +109,19 @@ lbaPage.enterAccidentDate(accidentDate);
 
     @When("I select Yes to question {string}")
     public void i_select_yes_to_question(String string) {
+        lbaPage.selectYes();
 
     }
 
     @When("I select No to do you know TP address")
     public void i_select_no_to_do_you_know_tp_address() {
+        lbaPage.selectNo();
 
     }
 
     @When("I select Yes to knowing TP vehicle reg")
     public void i_select_yes_to_knowing_tp_vehicle_reg() {
+lbaPage.selectYes2();
 
     }
 
@@ -124,9 +130,14 @@ lbaPage.enterAccidentDate(accidentDate);
 
     }
     @And("I enter the third party VRN {string}")
-    public void iEnterTheThirdPartyVRN(String arg0) {
+    public void iEnterTheThirdPartyVRN(String thirdPartyVRN) {
+        lbaPage.enterVehicleVRN(thirdPartyVRN);
     }
 
+    @And("I click on VRN Search")
+    public void iClickOnVRNSearch() {
+        lbaPage.lookUpVRN();
+    }
     @When("I click on the next step again")
     public void i_click_on_the_next_step_again() {
 
