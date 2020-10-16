@@ -2,12 +2,14 @@ package azure.net.hfp.recoveries.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LBAPage extends BasePage {
@@ -57,6 +59,12 @@ public class LBAPage extends BasePage {
     private WebElement thirdPartyInsurerField;
     @FindBy (xpath = "//*[@id=\"formly_68_appInput_reference_3\"]")
     private WebElement insurerReferenceField;
+    @FindBy (xpath = "//*[@id=\"formly_68_appRadio_ripe_5_0\"]")
+    private WebElement ripeRadio;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextButton4;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/button")
+    private WebElement submitButton;
 
     public LBAPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -167,6 +175,14 @@ public class LBAPage extends BasePage {
 
     public void lookUpVRN(){
         lookUpVRNButton.click();
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
     }
  public void clickOnNextButton3(){
         nextButton3.click();
@@ -174,11 +190,52 @@ public class LBAPage extends BasePage {
 
  public void enterThirdPartyInsurer(String thirdPartyInsurer){
         thirdPartyInsurerField.sendKeys(thirdPartyInsurer);
+     driver.findElement(By.xpath("//mat-option/span[contains(.,'AXA')]")).click();
 
- }
+
+      }
 
  public void enterInsurerReference(String insurerReference){
         insurerReferenceField.sendKeys(insurerReference);
 
+
+     try
+     {
+         Thread.sleep(1000);
+     }
+     catch(InterruptedException ex)
+     {
+         Thread.currentThread().interrupt();
+     }
+
+ }
+
+ public void clickRipeRadioYes(){
+        waitForElementToBeDisplayed(ripeRadio);
+               ripeRadio.click();
+ }
+
+ public void clickOnNextButton4(){
+        nextButton4.click();
+     try
+     {
+         Thread.sleep(1000);
+     }
+     catch(InterruptedException ex)
+     {
+         Thread.currentThread().interrupt();
+     }
+ }
+
+ public void clickOnSubmitButton(){
+        submitButton.click();
+     try
+     {
+         Thread.sleep(5000);
+     }
+     catch(InterruptedException ex)
+     {
+         Thread.currentThread().interrupt();
+     }
  }
 }

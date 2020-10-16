@@ -146,19 +146,21 @@ lbaPage.selectYes2();
 
     }
 
+
     @When("I select Yes to Ripe insurer")
     public void i_select_yes_to_ripe_insurer() {
-
+lbaPage.clickRipeRadioYes();
     }
 
-    @Then("the summary page is displayed")
-    public void the_summary_page_is_displayed() {
-
+    @And("I click on the next step button again")
+    public void iClickOnTheNextStepButtonAgain() {
+        lbaPage.clickOnNextButton4();
     }
+
 
     @Then("I click on the submit button")
     public void i_click_on_the_submit_button() {
-
+lbaPage.clickOnSubmitButton();
     }
 
     @Then("my submission reference is displayed")

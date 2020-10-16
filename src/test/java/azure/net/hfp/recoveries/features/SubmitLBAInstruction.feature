@@ -33,13 +33,13 @@ Feature: Submit an LBA instruction
     And I enter "<thirdPartyInsurer>"
     And I enter the insurer reference "<insurerReference>"
     And I select Yes to Ripe insurer
-    Then the summary page is displayed
+    And I click on the next step button again
     And I click on the submit button
     And my submission reference is displayed
 
     Examples:
       |password     | reference | Zurich system | accidentDate |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |Fisherman01    |ZACREF455  |ZAC            |22/05/2018   |Mr    |Daniel     |Dyer      |5400  |Ms   |Sandy                |Jones               |VN60PKF                 |AXA INSURANCE UK PLC|AXA567       |
+      |Fisherman01    |ZACRE7740  |ZAC            |22/05/2018   |Mr    |Daniel     |Dyer      |5400  |Ms   |Sandy                |Jones               |VN60PKF                 |AXA|AXA567       |
 
 
 
