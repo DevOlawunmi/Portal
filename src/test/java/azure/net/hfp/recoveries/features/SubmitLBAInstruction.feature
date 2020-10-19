@@ -1,3 +1,4 @@
+@lba_test
 Feature: Submit an LBA instruction
   As a portal user
   I want to provide all required information
@@ -39,7 +40,7 @@ Feature: Submit an LBA instruction
 
     Examples:
       |password     | reference | Zurich system | accidentDate |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |Fisherman01    |ZACRE7740  |ZAC            |22/05/2018   |Mr    |Daniel     |Dyer      |5400  |Ms   |Sandy                |Jones               |VN60PKF                 |AXA|AXA567       |
+      |Fisherman01    |ZACRE7709  |ZAC            |22/05/2018   |Mr    |Daniel     |Dyer      |5400  |Ms   |Sandy                |Jones               |VN62PKF                 |AXA|AXA567       |
 
 
 

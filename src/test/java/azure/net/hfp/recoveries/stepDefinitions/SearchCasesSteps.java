@@ -6,6 +6,10 @@ import io.cucumber.java.en.Then;
 
 public class SearchCasesSteps extends BasePage {
 
+    @And("I click on the Search Cases button")
+    public void iClickOnTheSearchCasesButton() {
+    }
+
     @Then("Search Cases page {string} is displayed")
     public void searchCasesPageIsDisplayed(String arg0) {
     }
@@ -23,4 +27,6 @@ public class SearchCasesSteps extends BasePage {
     @Then("existing cases are displayed")
     public void existingCasesAreDisplayed() {
     }
+
+
 }

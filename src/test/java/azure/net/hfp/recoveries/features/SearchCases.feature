@@ -1,3 +1,4 @@
+@ignore
 Feature: Search Cases
   As a Recoveries Portal user
   I want to search for my existing cases
@@ -7,7 +8,7 @@ Feature: Search Cases
     And I enter my username
     And I enter my password
     And I click on the sign on button
-    And I click on LBA Instruction
+    And I click on the Search Cases button
     Then  Search Cases page "<searchCasesPage>" is displayed
 
   Scenario Outline: User Can Search Cases using our reference
