@@ -8,9 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class LBAPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"page-ui-container\"]/div/div/div/div[2]/div/div/form/div[3]/button")
@@ -155,7 +153,7 @@ public class LBAPage extends BasePage {
     public void selectYes(){
         Actions actions = new Actions(driver);
         actions.moveToElement(yesRadioButton).click().perform();
-       // yesRadioButton.click();
+
     }
 
     public void selectNo(){
@@ -169,7 +167,6 @@ public class LBAPage extends BasePage {
     }
 
     public void enterVehicleVRN(String thirdPartyVRN){
-       // waitForElementToBeClickable(VRNfield);
         VRNfield.sendKeys(thirdPartyVRN);
     }
 

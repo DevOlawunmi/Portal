@@ -19,6 +19,8 @@ public class HomePage extends BasePage {
     private WebElement userNameField;
     @FindBy(xpath = "/html/body/app-root/app-content-wrapper/app-landing/div/div/div[2]/div/div[1]/button")
     private WebElement LBAInstructionButton;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper/app-landing/div/div/div[2]/div/div[5]/button")
+    private WebElement searchCasesButton;
 
 
 
@@ -39,7 +41,9 @@ public class HomePage extends BasePage {
         new LBAPage(driver);
     }
 
-
+    public void clickOnSearchCasesButton(){
+        searchCasesButton.click();
+    }
 
 
 }

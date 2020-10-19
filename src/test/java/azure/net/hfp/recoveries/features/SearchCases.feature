@@ -1,4 +1,4 @@
-@ignore
+@searchCases
 Feature: Search Cases
   As a Recoveries Portal user
   I want to search for my existing cases
@@ -18,8 +18,16 @@ Feature: Search Cases
 
     Examples:
       | ourReference |
-    |189611/500    |
+    |189611/624    |
 
+  Scenario Outline: User can search cases using your reference
+    And I enter your reference "<yourReference>"
+    And I click on search
+    Then existing cases are displayed
+
+    Examples:
+      | yourReference |
+      | ZACRE7709   |
 
 
 
