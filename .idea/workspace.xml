@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/SearchCasesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/olawu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/olawu.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SearchCases.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SearchCases.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/SearchResultPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SearchCasesSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SearchCasesSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603079826045</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Search Cases successful">
+      <created>1603113056722</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1603113056722</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,7 +269,8 @@
     <MESSAGE value="Search Cases Feature File added" />
     <MESSAGE value="Search Result Page created" />
     <MESSAGE value="Tag and Search Cases feature updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag and Search Cases feature updated" />
+    <MESSAGE value="Search Cases successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Cases successful" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
@@ -275,26 +281,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1603079825468">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1603113055726">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603079825468" />
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom" timestamp="1603112949966">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603113055726" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1603200584549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="306" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603112949966" />
-    <state width="1493" height="306" key="GridCell.Tab.0.center" timestamp="1603112949966">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603200584549" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1603200584549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="306" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603112949966" />
-    <state width="1493" height="306" key="GridCell.Tab.0.left" timestamp="1603112949966">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603200584549" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1603200584549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="306" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603112949966" />
-    <state width="1493" height="306" key="GridCell.Tab.0.right" timestamp="1603112949966">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603200584549" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1603200584549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="306" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603112949966" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603200584549" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,18 +309,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1603079828905">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1603113059754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603079828905" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1603078959637">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603113059754" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1603268324045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603078959637" />
-    <state x="209" y="109" key="new project wizard" timestamp="1602494934914">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1603268324045" />
+    <state x="209" y="109" key="new project wizard" timestamp="1603158620753">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602494934914" />
+    <state x="209" y="109" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603158620753" />
     <state x="521" y="335" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1602993192635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

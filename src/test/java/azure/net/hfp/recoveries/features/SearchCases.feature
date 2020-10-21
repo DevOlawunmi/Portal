@@ -11,7 +11,7 @@ Feature: Search Cases
     And I click on the Search Cases button
     Then  Search Cases page "<searchCasesPage>" is displayed
 
-  Scenario Outline: User Can Search Cases using our reference
+  Scenario Outline: User can search for cases using our reference
     And I enter our reference "<ourReference>"
     And I click on search
     Then existing cases are displayed
@@ -20,7 +20,7 @@ Feature: Search Cases
       | ourReference |
     |189611/624    |
 
-  Scenario Outline: User can search cases using your reference
+  Scenario Outline: User can search for cases using their reference
     And I enter your reference "<yourReference>"
     And I click on search
     Then existing cases are displayed
