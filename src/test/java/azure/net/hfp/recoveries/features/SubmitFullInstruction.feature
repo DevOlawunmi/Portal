@@ -30,7 +30,7 @@ Feature: Submit a Full instruction
     And I click on the next step 3
     And I select TPI "<thirdPartyInsurer>"
     And I enter the TPI street number
-    And I enter the TPI postcode 
+    And I enter the TPI postcode
     And I click on the address lookup
     And I enter the insurer reference number
     And I enter the insurer email
@@ -40,6 +40,12 @@ Feature: Submit a Full instruction
     And I click on next step 5
     And I enter policyholder street number
     And I enter policyholder postcode
+    And I click on address lookup
+    And I enter policyholder's email address
+    And I click on next step 5
+    And I answer yes to was policyholder driving?
+    And aia click on next step 6
+    
 
 
 
