@@ -8,7 +8,7 @@ Feature: Submit an LBA instruction
     And I enter my username
     And I enter my password
     And I click on the sign on button
-   And I click on LBA Instruction
+    And I click on LBA Instruction
     Then LBA "<LBAPage>" is displayed
 
 

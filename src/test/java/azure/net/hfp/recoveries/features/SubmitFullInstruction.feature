@@ -1,3 +1,4 @@
+@full_instruction
 Feature: Submit a Full instruction
   As a portal user
   I want to provide all required information
@@ -8,12 +9,12 @@ Feature: Submit a Full instruction
     And I enter my password
     And I click on the sign on button
     And I click on Full Instruction
-    Then Full Instruction "<fullInstructionPage>" is displayed
+    Then Full Instruction "<Full Instruction page>" is displayed
 
 
   Scenario Outline: User Can Submit Full Instruction
-    And I select the correct Zurich system from the dropdown list
-    And I enter a "<reference>"
+    And I select the correct Zurich system from the dropdown list FI
+    And I enter a "<reference>" FI
     And I click on next step
     And I enter the "<accidentDate>"
     And I select policyholder title

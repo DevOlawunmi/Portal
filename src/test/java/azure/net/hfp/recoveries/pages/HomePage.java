@@ -21,6 +21,8 @@ public class HomePage extends BasePage {
     private WebElement LBAInstructionButton;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper/app-landing/div/div/div[2]/div/div[5]/button")
     private WebElement searchCasesButton;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper/app-landing/div/div/div[2]/div/div[2]/button")
+    private WebElement fullInstructionButton;
 
 
 
@@ -45,5 +47,9 @@ public class HomePage extends BasePage {
         searchCasesButton.click();
     }
 
-
+    public void clickOnFullInstructionButton(){
+       waitForElementToBeClickable(fullInstructionButton);
+       // fullInstructionButton.click();
+    new FullInstructionPage(driver);
+    }
 }

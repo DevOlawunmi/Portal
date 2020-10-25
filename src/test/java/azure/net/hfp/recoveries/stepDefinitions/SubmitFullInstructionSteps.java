@@ -1,30 +1,46 @@
 package azure.net.hfp.recoveries.stepDefinitions;
 
 import azure.net.hfp.recoveries.pages.BasePage;
+import azure.net.hfp.recoveries.pages.FullInstructionPage;
+import azure.net.hfp.recoveries.pages.HomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.support.PageFactory;
 
 public class SubmitFullInstructionSteps extends BasePage {
+    FullInstructionPage fullInstructionPage = PageFactory.initElements(driver,FullInstructionPage.class);
+    HomePage homePage = PageFactory.initElements(driver,HomePage.class);
 
-    public SubmitFullInstructionSteps() {
-
-    }   
+//    public SubmitFullInstructionSteps() {
+//
+//    }
 
     @And("I click on Full Instruction")
     public void iClickOnFullInstruction() {
+        homePage.clickOnFullInstructionButton();
+
+    }
+    @Then("Full Instruction {string} is displayed")
+    public void fullInstructionIsDisplayed(String instruction) {
+        fullInstructionPage.isCorrectURLDisplayedForFullInstruction(instruction);
+        fullInstructionPage.isFullInstructionPageDisplayed(instruction);
     }
 
+    @And("I select the correct Zurich system from the dropdown list FI")
+    public void iSelectTheCorrectZurichSystemFromTheDropdownListFI() {
 
-    @Then("Full Instruction {string} is displayed")
-    public void fullInstructionIsDisplayed(String arg0) {
-        
+    }
+
+    @And("I enter a {string} FI")
+    public void iEnterAFI(String reference) {
+        fullInstructionPage.enterZurichReference(reference);
     }
 
     @And("I select No to knowing TP vehicle reg")
     public void iSelectNoToKnowingTPVehicleReg() {
     }
-    
+
     @And("I click on the next step three")
     public void iClickOnTheNextStepThree() {
     }
@@ -147,6 +163,7 @@ public class SubmitFullInstructionSteps extends BasePage {
     @And("I click on the submit full instruction button")
     public void iClickOnTheSubmitFullInstructionButton() {
     }
+
 
 
 }

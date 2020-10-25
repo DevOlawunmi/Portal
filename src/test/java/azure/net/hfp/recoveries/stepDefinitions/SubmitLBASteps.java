@@ -30,6 +30,11 @@ public class SubmitLBASteps extends BasePage {
         homePage.enterPassword("@Fisherman01");
 
     }
+    @Then("LBA {string} is displayed")
+    public void lbaIsDisplayed(String LBA) {
+        lbaPage.isCorrectUrlDisplayedForLBA(LBA);
+        lbaPage.isLBAPageDisplayed(LBA);
+    }
 
     @When("I enter a {string}")
     public void i_enter_a(String reference) {
@@ -180,11 +185,7 @@ lbaPage.clickOnSubmitButton();
 
 
 
-    @Then("LBA {string} is displayed")
-    public void lbaIsDisplayed(String LBA) {
-        lbaPage.isCorrectUrlDisplayedForLBA(LBA);
-        lbaPage.isLBAPageDisplayed(LBA);
-    }
+
 
 
 
