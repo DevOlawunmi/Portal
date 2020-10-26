@@ -29,7 +29,7 @@ public class SubmitFullInstructionSteps extends BasePage {
 
     @And("I select the correct Zurich system from the dropdown list FI")
     public void iSelectTheCorrectZurichSystemFromTheDropdownListFI() {
-
+fullInstructionPage.selectZurichSystem();
     }
 
     @And("I enter a {string} FI")
