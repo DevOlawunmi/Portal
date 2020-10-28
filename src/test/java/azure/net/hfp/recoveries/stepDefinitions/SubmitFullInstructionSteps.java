@@ -12,9 +12,7 @@ public class SubmitFullInstructionSteps extends BasePage {
     FullInstructionPage fullInstructionPage = PageFactory.initElements(driver,FullInstructionPage.class);
     HomePage homePage = PageFactory.initElements(driver,HomePage.class);
 
-//    public SubmitFullInstructionSteps() {
-//
-//    }
+
 
     @And("I click on Full Instruction")
     public void iClickOnFullInstruction() {
