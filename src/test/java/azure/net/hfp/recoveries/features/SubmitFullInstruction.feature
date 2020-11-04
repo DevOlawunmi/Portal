@@ -15,18 +15,18 @@ Feature: Submit a Full instruction
   Scenario Outline: User Can Submit Full Instruction
     And I enter a "<reference>" FI
     And I select the correct Zurich system from the dropdown list FI
-    And I click on next step
+    And I click on next step one
     And I enter the "<accidentDate>"
-    And I select policyholder title
-    And I enter the policyholder firstName "<firstName>"
-    And I enter the policyholder lastName "<lastName>"
-    And I enter the outlay "<Outlay>"
-    And I click on the next step
-    And I select third Party Title
-    And I enter the thirdPartyFirstName "<thirdPartyFirstName>"
-    And I enter the thirdPartyLastName "<thirdPartyLastName>"
-    And I select Yes to question 'Is third party Insured?'
-    And I select No to do you know TP address
+    And I select policyholder title for full ins
+    And I enter the full ins policyholder firstName "<firstName>"
+    And I enter the full ins policyholder lastName "<lastName>"
+    And I enter the full ins outlay "<Outlay>"
+    And I click on the next step two
+    And I select full ins third Party Title
+    And I enter the full ins thirdPartyFirstName "<thirdPartyFirstName>"
+    And I enter the full ins thirdPartyLastName "<thirdPartyLastName>"
+    And I select Yes to question 'Is third party Insured?'full inst
+    And I select No to do you know TP address full ins
     And I select No to knowing TP vehicle reg
     And I click on the next step three
     And I select TPI "<thirdPartyInsurer>"

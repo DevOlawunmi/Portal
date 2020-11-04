@@ -13,8 +13,10 @@ public class FullInstructionPage extends BasePage{
     private WebElement referenceField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/p[1]")
     private WebElement pageTitle;
-    @FindBy (xpath = "//*[@id=\"formly_12_appStaticSelect_bacs_4\"]")
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[5]/app-static-select-field/div/mat-form-field")
     private WebElement zurichSystemField;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextButton1;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -31,12 +33,14 @@ public class FullInstructionPage extends BasePage{
         driver.getCurrentUrl().contains(instruction.toLowerCase());
     }
     public void selectZurichSystem(){
-        driver.findElement(By.xpath("//*[@id=\"formly_24_appStaticSelect_bacs_4\"]")).click();
-        String winHandleBefore = driver.getWindowHandle();
-        driver.switchTo().window(winHandleBefore);
-        WebElement element = driver.findElement(By.xpath("//*[@id=\"formly_12_appStaticSelect_bacs_4\"]"));
+        zurichSystemField.click();
+        WebElement element = driver.findElement(By.xpath("//*[@id=\"mat-option-12\"]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
+    }
+    public void clickOnNextStep(){
+        nextButton1.click();
+
     }
 
 }

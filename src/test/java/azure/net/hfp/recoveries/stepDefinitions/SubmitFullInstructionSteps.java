@@ -35,6 +35,50 @@ fullInstructionPage.selectZurichSystem();
         fullInstructionPage.enterZurichReference(reference);
     }
 
+    @And("I click on next step one")
+    public void iClickOnNextStepOne() {
+        fullInstructionPage.clickOnNextStep();
+    }
+    @And("I select policyholder title for full ins")
+    public void iSelectPolicyholderTitleForFullIns() {
+    }
+
+    @And("I enter the full ins policyholder firstName {string}")
+    public void iEnterTheFullInsPolicyholderFirstName(String arg0) {
+    }
+
+    @And("I enter the full ins policyholder lastName {string}")
+    public void iEnterTheFullInsPolicyholderLastName(String arg0) {
+    }
+
+    @And("I enter the full ins outlay {string}")
+    public void iEnterTheFullInsOutlay(String arg0) {
+    }
+
+    @And("I click on the next step two")
+    public void iClickOnTheNextStepTwo() {
+    }
+
+    @And("I select full ins third Party Title")
+    public void iSelectFullInsThirdPartyTitle() {
+    }
+
+    @And("I enter the full ins thirdPartyFirstName {string}")
+    public void iEnterTheFullInsThirdPartyFirstName(String arg0) {
+    }
+
+    @And("I enter the full ins thirdPartyLastName {string}")
+    public void iEnterTheFullInsThirdPartyLastName(String arg0) {
+    }
+
+    @And("I select Yes to question {string}full inst")
+    public void iSelectYesToQuestionIsThirdPartyInsuredFullInst() {
+    }
+
+    @And("I select No to do you know TP address full ins")
+    public void iSelectNoToDoYouKnowTPAddressFullIns() {
+    }
+
     @And("I select No to knowing TP vehicle reg")
     public void iSelectNoToKnowingTPVehicleReg() {
     }

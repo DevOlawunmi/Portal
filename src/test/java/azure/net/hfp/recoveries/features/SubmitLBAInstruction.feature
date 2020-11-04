@@ -4,6 +4,8 @@ Feature: Submit an LBA instruction
   I want to provide all required information
   So I can submit an LBA Instruction
   Background:
+
+
     Given I navigate to Recoveries portal
     And I enter my username
     And I enter my password
