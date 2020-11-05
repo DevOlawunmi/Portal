@@ -17,6 +17,10 @@ public class FullInstructionPage extends BasePage{
     private WebElement zurichSystemField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextButton1;
+    @FindBy (xpath = "//*[@id=\"formly_19_appStaticSelect_policyholderTitle_1\"]")
+    private WebElement policyholderTitleField;
+    @FindBy (xpath = "//*[@id=\"formly_19_appInput_policyholderFirstName_2\"]")
+    private WebElement policyholderFirstNameField;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -42,5 +46,17 @@ public class FullInstructionPage extends BasePage{
         nextButton1.click();
 
     }
+
+    public void selectPolicyholderTitle(){
+        policyholderTitleField.click();
+        WebElement element = driver.findElement(By.xpath("//*[@id=\"formly_19_appStaticSelect_policyholderTitle_1\"]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+    }
+
+    public void enterPolicyholderFirstName(String firstName){
+        policyholderFirstNameField.sendKeys(firstName);
+    }
+
 
 }

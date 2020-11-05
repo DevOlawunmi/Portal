@@ -41,10 +41,12 @@ fullInstructionPage.selectZurichSystem();
     }
     @And("I select policyholder title for full ins")
     public void iSelectPolicyholderTitleForFullIns() {
+        fullInstructionPage.selectPolicyholderTitle();
     }
 
     @And("I enter the full ins policyholder firstName {string}")
-    public void iEnterTheFullInsPolicyholderFirstName(String arg0) {
+    public void iEnterTheFullInsPolicyholderFirstName(String firstName) {
+        fullInstructionPage.enterPolicyholderFirstName(firstName);
     }
 
     @And("I enter the full ins policyholder lastName {string}")
