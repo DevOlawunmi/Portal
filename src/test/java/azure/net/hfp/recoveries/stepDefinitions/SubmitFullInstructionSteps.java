@@ -71,7 +71,7 @@ fullInstructionPage.selectZurichSystem();
     public void iEnterTheFullInsThirdPartyLastName(String arg0) {
     }
 
-    @And("I select Yes to question {string}full inst")
+    @And("I select Yes to question Is third party Insured full inst")
     public void iSelectYesToQuestionIsThirdPartyInsuredFullInst() {
     }
 

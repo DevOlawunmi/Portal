@@ -25,7 +25,7 @@ Feature: Submit a Full instruction
     And I select full ins third Party Title
     And I enter the full ins thirdPartyFirstName "<thirdPartyFirstName>"
     And I enter the full ins thirdPartyLastName "<thirdPartyLastName>"
-    And I select Yes to question 'Is third party Insured?'full inst
+    And I select Yes to question Is third party Insured full inst
     And I select No to do you know TP address full ins
     And I select No to knowing TP vehicle reg
     And I click on the next step three
