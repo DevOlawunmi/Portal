@@ -50,11 +50,13 @@ fullInstructionPage.selectZurichSystem();
     }
 
     @And("I enter the full ins policyholder lastName {string}")
-    public void iEnterTheFullInsPolicyholderLastName(String arg0) {
+    public void iEnterTheFullInsPolicyholderLastName(String lastName) {
+        fullInstructionPage.enterPolicyholderLastName(lastName);
     }
 
     @And("I enter the full ins outlay {string}")
-    public void iEnterTheFullInsOutlay(String arg0) {
+    public void iEnterTheFullInsOutlay(String outlay) {
+        fullInstructionPage.enterOutlayAmount(outlay);
     }
 
     @And("I click on the next step two")

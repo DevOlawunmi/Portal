@@ -20,7 +20,7 @@ Feature: Submit a Full instruction
     And I select policyholder title for full ins
     And I enter the full ins policyholder firstName "<firstName>"
     And I enter the full ins policyholder lastName "<lastName>"
-    And I enter the full ins outlay "<Outlay>"
+    And I enter the full ins outlay "<outlay>"
     And I click on the next step two
     And I select full ins third Party Title
     And I enter the full ins thirdPartyFirstName "<thirdPartyFirstName>"
@@ -58,5 +58,5 @@ Feature: Submit a Full instruction
 
 
     Examples:
-      | reference | accidentDate | firstName | lastName | Outlay | thirdPartyFirstName | thirdPartyLastName |thirdPartyInsurer|
+      | reference | accidentDate | firstName | lastName | outlay | thirdPartyFirstName | thirdPartyLastName |thirdPartyInsurer|
     |Genz5678   |2/6/2020      |James Hadley|Chase    |1800    |Sidney               |Sheldon             |ACE Insurance    |

@@ -21,6 +21,10 @@ public class FullInstructionPage extends BasePage{
     private WebElement policyholderTitleField;
     @FindBy (xpath = "//*[@id=\"formly_19_appInput_policyholderFirstName_2\"]")
     private WebElement policyholderFirstNameField;
+    @FindBy (xpath = "//*[@id=\"formly_19_appInput_policyholderLastName_3\"]")
+    private WebElement policyholderLastNameField;
+    @FindBy (xpath = "//*[@id=\"formly_19_appInput_outlayAmount_4\"]")
+    private WebElement outlayField;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -56,6 +60,15 @@ public class FullInstructionPage extends BasePage{
 
     public void enterPolicyholderFirstName(String firstName){
         policyholderFirstNameField.sendKeys(firstName);
+    }
+
+    public void enterPolicyholderLastName(String lastName){
+        policyholderLastNameField.sendKeys(lastName);
+    }
+
+    public void enterOutlayAmount(String outlay){
+        outlayField.sendKeys(outlay);
+
     }
 
 
