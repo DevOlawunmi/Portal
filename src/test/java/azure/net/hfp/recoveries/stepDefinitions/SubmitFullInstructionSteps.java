@@ -61,34 +61,42 @@ fullInstructionPage.selectZurichSystem();
 
     @And("I click on the next step two")
     public void iClickOnTheNextStepTwo() {
+        fullInstructionPage.clickOnNextStepTwo();
     }
 
     @And("I select full ins third Party Title")
     public void iSelectFullInsThirdPartyTitle() {
+        fullInstructionPage.selectThirdPartyTitle();
     }
 
     @And("I enter the full ins thirdPartyFirstName {string}")
-    public void iEnterTheFullInsThirdPartyFirstName(String arg0) {
+    public void iEnterTheFullInsThirdPartyFirstName(String thirdPartyFirstName) {
+        fullInstructionPage.enterThirdPartyFirstName(thirdPartyFirstName);
     }
 
     @And("I enter the full ins thirdPartyLastName {string}")
-    public void iEnterTheFullInsThirdPartyLastName(String arg0) {
+    public void iEnterTheFullInsThirdPartyLastName(String thirdPartyLastName) {
+        fullInstructionPage.enterThirdPartyLastName(thirdPartyLastName);
     }
 
     @And("I select Yes to question Is third party Insured full inst")
     public void iSelectYesToQuestionIsThirdPartyInsuredFullInst() {
+        fullInstructionPage.selectIsTPVInsuredYes();
     }
 
     @And("I select No to do you know TP address full ins")
     public void iSelectNoToDoYouKnowTPAddressFullIns() {
+        fullInstructionPage.selectTPAddressNo();
     }
 
     @And("I select No to knowing TP vehicle reg")
     public void iSelectNoToKnowingTPVehicleReg() {
+        fullInstructionPage.selectTP_VRNDetailsNo();
     }
 
     @And("I click on the next step three")
     public void iClickOnTheNextStepThree() {
+        fullInstructionPage.clickOnNextStepThree();
     }
 
 

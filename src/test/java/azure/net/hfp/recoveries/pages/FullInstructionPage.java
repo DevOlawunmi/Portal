@@ -25,6 +25,22 @@ public class FullInstructionPage extends BasePage{
     private WebElement policyholderLastNameField;
     @FindBy (xpath = "//*[@id=\"formly_19_appInput_outlayAmount_4\"]")
     private WebElement outlayField;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextButtonTwo;
+    @FindBy (xpath = "//*[@id=\"formly_26_appStaticSelect_title_0\"]")
+    private WebElement thirdPartyTitleField;
+    @FindBy (xpath = "//*[@id=\"formly_26_appInput_firstName_1\"]")
+    private WebElement thirdPartyFirstNameField;
+    @FindBy (xpath = "//*[@id=\"formly_26_appInput_lastName_2\"]")
+    private WebElement thirdPartyLastNameField;
+    @FindBy (xpath = "//*[@id=\"formly_28_appRadio_isTPVInsured_0_0\"]")
+    private WebElement TPVInsuredYes;
+    @FindBy (xpath = "//*[@id=\"formly_28_appRadio_isTPDAddress_1_1\"]")
+    private WebElement TPAddressNo;
+    @FindBy (xpath = "//*[@id=\"formly_44_appRadio_haveGotDetails_0_1\"]")
+    private WebElement TP_VRNDetailsNo;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextButton3;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -68,6 +84,44 @@ public class FullInstructionPage extends BasePage{
 
     public void enterOutlayAmount(String outlay){
         outlayField.sendKeys(outlay);
+
+    }
+
+    public void clickOnNextStepTwo(){
+        nextButtonTwo.click();
+    }
+
+    public void selectThirdPartyTitle(){
+        thirdPartyTitleField.click();
+        WebElement element = driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
+
+    }
+
+    public void enterThirdPartyFirstName(String thirdPartyFirstName){
+        thirdPartyFirstNameField.sendKeys(thirdPartyFirstName);
+
+    }
+
+    public void enterThirdPartyLastName(String thirdPartyFirstName){
+        thirdPartyLastNameField.sendKeys(thirdPartyFirstName);
+
+    }
+
+    public void selectIsTPVInsuredYes(){
+        TPVInsuredYes.click();
+    }
+
+    public void selectTPAddressNo(){
+        TPAddressNo.click();
+    }
+
+    public void selectTP_VRNDetailsNo(){
+        TP_VRNDetailsNo.click();
+    }
+    public void clickOnNextStepThree(){
+        nextButton3.click();
 
     }
 
