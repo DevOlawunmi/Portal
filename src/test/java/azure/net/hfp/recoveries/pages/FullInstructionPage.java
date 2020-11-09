@@ -41,6 +41,8 @@ public class FullInstructionPage extends BasePage{
     private WebElement TP_VRNDetailsNo;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextButton3;
+    @FindBy (xpath = "//*[@id=\"formly_56_appSelect_name_0\"]")
+    private WebElement TPIField;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -122,6 +124,12 @@ public class FullInstructionPage extends BasePage{
     }
     public void clickOnNextStepThree(){
         nextButton3.click();
+
+    }
+
+    public void enterTPI(String thirdPartyInsurer){
+        TPIField.sendKeys(thirdPartyInsurer);
+        driver.findElement(By.xpath("//*[@id=\"mat-option-556\"]/span[contains(.,'ACE')]")).click();
 
     }
 

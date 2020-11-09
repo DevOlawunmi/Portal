@@ -101,7 +101,8 @@ fullInstructionPage.selectZurichSystem();
 
 
     @And("I select TPI {string}")
-    public void iSelectTPI(String arg0) {
+    public void iSelectTPI(String thirdPartyInsurer) {
+        fullInstructionPage.enterTPI(thirdPartyInsurer);
 
     }
 

@@ -317,11 +317,17 @@
       <option name="project" value="LOCAL" />
       <updated>1604561475095</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Next step 3">
+      <created>1604579854867</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1604579854867</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="URL not launched :(" />
     <MESSAGE value="LaunchURL method updated" />
     <MESSAGE value="Updated" />
     <MESSAGE value="Login page successfully displayed" />
@@ -346,7 +352,8 @@
     <MESSAGE value="Full Ins feature updated, invalid arg removed" />
     <MESSAGE value="Policyholder's first name successfully entered. full ins" />
     <MESSAGE value="Outlay amount entered" />
-    <option name="LAST_COMMIT_MESSAGE" value="Outlay amount entered" />
+    <MESSAGE value="Next step 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Next step 3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
@@ -361,26 +368,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604561474570">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1604579854377">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604561474570" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1604578432512">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604579854377" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1604918021274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604578432512" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1604578432512">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604918021274" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1604918021274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604578432512" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1604578432512">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604918021274" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1604918021274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604578432512" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1604578432512">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604918021274" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1604918021274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604578432512" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604918021274" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -389,14 +396,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604561477720">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1604579867152">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604561477720" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1604548880538">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604579867152" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1604635426860">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604548880538" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604635426860" />
     <state x="209" y="68" key="new project wizard" timestamp="1604549128207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
