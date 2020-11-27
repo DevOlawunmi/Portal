@@ -42,7 +42,7 @@ Feature: Submit an LBA instruction
 
     Examples:
       |password     | reference | Zurich system | accidentDate |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |Fisherman01    |ZACRE7787856  |ZAC            |22/05/2018   |Mr    |Jamie     |Donald      |5400  |Ms   |Sandy                |Jones               |VN62PKF                 |AXA|AXA567       |
+      |Fisherman01    |AzDev001/1  |ZAC            |22/05/2018   |Mr    |Andy     |Peterson     |5400  |Ms   |Sandy                |Jones               |OE68EKU                 |AXA|AXA567       |
 
 
 

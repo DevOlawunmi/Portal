@@ -1,4 +1,4 @@
-@full_instruction
+@full_instruction, @ignore
 Feature: Submit a Full instruction
   As a portal user
   I want to provide all required information
@@ -30,8 +30,8 @@ Feature: Submit a Full instruction
     And I select No to knowing TP vehicle reg
     And I click on the next step three
     And I select TPI "<thirdPartyInsurer>"
-    And I enter the TPI street number
-    And I enter the TPI postcode
+    And I enter the TPI street "<number>"
+    And I enter the TPI "<postcode>"
     And I click on the address lookup
     And I enter the insurer reference number
     And I enter the insurer email

@@ -43,6 +43,8 @@ public class FullInstructionPage extends BasePage{
     private WebElement nextButton3;
     @FindBy (xpath = "//*[@id=\"formly_56_appSelect_name_0\"]")
     private WebElement TPIField;
+    @FindBy (xpath = "//*[@id=\"formly_62_appInput_streetNumberOrBuildingName_0\"]")
+    private WebElement TPIStreetNumberField;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -131,6 +133,18 @@ public class FullInstructionPage extends BasePage{
         TPIField.sendKeys(thirdPartyInsurer);
         driver.findElement(By.xpath("//*[@id=\"mat-option-556\"]/span[contains(.,'ACE')]")).click();
 
+    }
+
+    public void enterTPIStreetNumber(String streetNo){
+        TPIStreetNumberField.sendKeys(streetNo);
+        try
+        {
+            Thread.sleep(5000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
     }
 
 
