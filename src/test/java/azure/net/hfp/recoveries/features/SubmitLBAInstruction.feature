@@ -19,7 +19,7 @@ Feature: Submit an LBA instruction
     And I enter a "<reference>"
     And I click on next step
     And I enter the "<accidentDate>"
-    And I select policyholder title
+    And I select "<policyholder title>"
     And I enter the policyholder firstName "<firstName>"
     And I enter the policyholder lastName "<lastName>"
     And I enter the outlay "<Outlay>"
@@ -41,8 +41,8 @@ Feature: Submit an LBA instruction
     And my submission reference is displayed
 
     Examples:
-      |password     | reference | Zurich system | accidentDate |title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |Fisherman01    |AzDev001/1  |ZAC            |22/05/2018   |Mr    |Andy     |Peterson     |5400  |Ms   |Sandy                |Jones               |OE68EKU                 |AXA|AXA567       |
+      |password     | reference | Zurich system | accidentDate |policyholder title| firstName | lastName | Outlay|thirdPartyTitle | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
+      |Fisherman01    |AzDevLBA/003  |ZAC            |22/05/2018   |Miss  |Claudia    |Fabulous    |5400  |Mrs   |Choco                |Bodie              |OE68EKU                 |AXA|AXA567       |
 
 
 
