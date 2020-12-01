@@ -110,13 +110,16 @@ fullInstructionPage.selectZurichSystem();
     public void iEnterTheTPIStreet(String streetNo) {
         fullInstructionPage.enterTPIStreetNumber("22");
     }
+
     @And("I enter the TPI {string}")
-    public void iEnterTheTPI(String arg0) {
+    public void iEnterTheTPI(String postcode) {
+        fullInstructionPage.enterThirdPartyPostcode("M16 OSP");
     }
 
 
     @And("I click on the address lookup")
     public void iClickOnTheAddressLookup() {
+        fullInstructionPage.lookUpTPIAddress();
     }
 
     @And("I enter the insurer reference number")

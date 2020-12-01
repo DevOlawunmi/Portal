@@ -45,6 +45,10 @@ public class FullInstructionPage extends BasePage{
     private WebElement TPIField;
     @FindBy (xpath = "//*[@id=\"formly_62_appInput_streetNumberOrBuildingName_0\"]")
     private WebElement TPIStreetNumberField;
+    @FindBy (xpath = "//*[@id=\"formly_62_appInput_postalCode_1\"]")
+    private WebElement TPIPostcode;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[1]/app-card-wrapper/div/div[2]/formly-group/formly-field[3]/formly-group/formly-field/formly-group/formly-field[3]/app-button-wrapper/div[1]/div/button")
+    private WebElement getTPIPostcode;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -137,14 +141,14 @@ public class FullInstructionPage extends BasePage{
 
     public void enterTPIStreetNumber(String streetNo){
         TPIStreetNumberField.sendKeys(streetNo);
-        try
-        {
-            Thread.sleep(5000);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
-        }
+
+    }
+    public void enterThirdPartyPostcode(String postcode){
+        TPIPostcode.sendKeys(postcode);
+
+    }
+    public void lookUpTPIAddress(){
+        getTPIPostcode.click();
     }
 
 
