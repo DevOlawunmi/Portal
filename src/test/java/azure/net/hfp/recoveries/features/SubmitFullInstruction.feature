@@ -33,8 +33,8 @@ Feature: Submit a Full instruction
     And I enter the TPI street "<number>"
     And I enter the TPI "<postcode>"
     And I click on the address lookup
-    And I enter the insurer reference number
-    And I enter the insurer email
+    And I enter the insurer "<reference number>"
+    And I enter the insurer email "<email>"
     And I select no to ripe insurer
     And I click on next step four
     And select No to knowing insured vehicle details

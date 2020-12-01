@@ -46,9 +46,17 @@ public class FullInstructionPage extends BasePage{
     @FindBy (xpath = "//*[@id=\"formly_62_appInput_streetNumberOrBuildingName_0\"]")
     private WebElement TPIStreetNumberField;
     @FindBy (xpath = "//*[@id=\"formly_62_appInput_postalCode_1\"]")
-    private WebElement TPIPostcode;
+    private WebElement TPIPostcodeField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[1]/app-card-wrapper/div/div[2]/formly-group/formly-field[3]/formly-group/formly-field/formly-group/formly-field[3]/app-button-wrapper/div[1]/div/button")
-    private WebElement getTPIPostcode;
+    private WebElement getTPIPostcodeButton;
+    @FindBy (xpath = "//*[@id=\"formly_68_appInput_reference_3\"]")
+    private WebElement TPIReferenceField;
+    @FindBy (xpath = "//*[@id=\"formly_68_appInput_email_4\"]")
+    private WebElement TPIEmailField;
+    @FindBy (xpath = "//*[@id=\"formly_68_appRadio_ripe_5_0\"]")
+    private WebElement ripeInsurerButtonNo;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextStep4Button;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -144,11 +152,31 @@ public class FullInstructionPage extends BasePage{
 
     }
     public void enterThirdPartyPostcode(String postcode){
-        TPIPostcode.sendKeys(postcode);
+        TPIPostcodeField.sendKeys(postcode);
 
     }
     public void lookUpTPIAddress(){
-        getTPIPostcode.click();
+        getTPIPostcodeButton.click();
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+    }
+    public void enterTPIReference(String reference){
+        TPIReferenceField.sendKeys(reference);
+    }
+    public void enterTPIEmail(String email){
+        TPIEmailField.sendKeys(email);
+    }
+    public void selectNoToRipeInsurer(){
+        ripeInsurerButtonNo.click();
+    }
+    public void clickOnNextStepFour(){
+        nextStep4Button.click();
     }
 
 

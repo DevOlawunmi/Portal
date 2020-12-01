@@ -113,7 +113,7 @@ fullInstructionPage.selectZurichSystem();
 
     @And("I enter the TPI {string}")
     public void iEnterTheTPI(String postcode) {
-        fullInstructionPage.enterThirdPartyPostcode("M16 OSP");
+        fullInstructionPage.enterThirdPartyPostcode("M16 0SP");
     }
 
 
@@ -122,23 +122,27 @@ fullInstructionPage.selectZurichSystem();
         fullInstructionPage.lookUpTPIAddress();
     }
 
-    @And("I enter the insurer reference number")
-    public void iEnterTheInsurerReferenceNumber() {
 
+    @And("I enter the insurer {string}")
+    public void iEnterTheInsurer(String reference) {
+        fullInstructionPage.enterTPIReference("JGTYTFGGYUH");
     }
 
-    @And("I enter the insurer email")
-    public void iEnterTheInsurerEmail() {
 
+    @And("I enter the insurer email {string}")
+    public void iEnterTheInsurerEmail(String email) {
+        fullInstructionPage.enterTPIEmail("test@tester.com");
     }
 
     @And("I select no to ripe insurer")
     public void iSelectNoToRipeInsurer() {
+        fullInstructionPage.selectNoToRipeInsurer();
 
     }
 
     @And("I click on next step four")
     public void iClickOnNextStepFour() {
+        fullInstructionPage.clickOnNextStepFour();
 
     }
 
