@@ -137,7 +137,7 @@ public class LBAPage extends BasePage {
     public void selectThirdPartyTitle(){
 
         driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]/div/div[1]")).click();
-        WebElement element3 = driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]/div/div[1]"));
+        WebElement element3 = driver.findElement(By.xpath("//*[@id=\"formly_26_appStaticSelect_title_0\"]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element3).click().perform();
 

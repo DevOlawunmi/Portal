@@ -27,7 +27,7 @@ public class SubmitLBASteps extends BasePage {
 
     @Given("I enter my password")
     public void i_enter_my_password() throws InterruptedException {
-        homePage.enterPassword("@Fisherman01");
+        homePage.enterPassword("@Panoramah01");
 
     }
     @Then("LBA {string} is displayed")

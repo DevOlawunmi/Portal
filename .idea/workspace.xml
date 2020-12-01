@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="">
+    <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="LBA Reference updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -337,11 +339,17 @@
       <option name="project" value="LOCAL" />
       <updated>1606485724161</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="LBA Reference updated">
+      <created>1606549020012</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1606549020012</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login page successfully displayed" />
     <MESSAGE value="Submit LBA Instruction fail" />
     <MESSAGE value="Click on LBA Instruction pass" />
     <MESSAGE value="Zurich System successfully selected" />
@@ -366,7 +374,8 @@
     <MESSAGE value="Next step 3" />
     <MESSAGE value="TPI entered" />
     <MESSAGE value="Reference updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reference updated" />
+    <MESSAGE value="LBA Reference updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="LBA Reference updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
@@ -381,26 +390,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1606485723502">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1606712066049">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606485723502" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1606548040987">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606712066049" />
+    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1606712136771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606548040987" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1606548040987">
+    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606712136771" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1606739309435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606548040987" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1606548040987">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606739309435" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1606739309435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606548040987" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1606548040987">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606739309435" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1606739309435">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606548040987" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606739309435" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1606739309435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606739309435" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,14 +422,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1606485726840">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1606549026640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606485726840" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1606547045373">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606549026640" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1606800444507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606547045373" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606800444507" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606712076340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606712076340" />
     <state x="209" y="68" key="new project wizard" timestamp="1604549128207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
