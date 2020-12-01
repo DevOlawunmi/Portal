@@ -1,4 +1,4 @@
-@full_instruction, @ignore
+@full_instruction
 Feature: Submit a Full instruction
   As a portal user
   I want to provide all required information
