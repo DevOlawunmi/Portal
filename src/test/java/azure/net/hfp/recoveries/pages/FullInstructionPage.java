@@ -57,6 +57,8 @@ public class FullInstructionPage extends BasePage{
     private WebElement ripeInsurerButtonNo;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextStep4Button;
+    @FindBy (xpath = "//*[@id=\"formly_261_appRadio_haveGotDetails_0_1\"]")
+    private WebElement doYouKnowInsuredVehicleDetailsNo;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -177,6 +179,10 @@ public class FullInstructionPage extends BasePage{
     }
     public void clickOnNextStepFour(){
         nextStep4Button.click();
+    }
+
+    public void setDoYouKnowInsuredVehicleDetailsNo(){
+        doYouKnowInsuredVehicleDetailsNo.click();
     }
 
 

@@ -148,7 +148,7 @@ fullInstructionPage.selectZurichSystem();
 
     @And("select No to knowing insured vehicle details")
     public void selectNoToKnowingInsuredVehicleDetails() {
-
+fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
     }
 
     @And("I click on next step five")
