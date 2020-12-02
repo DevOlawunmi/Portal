@@ -153,6 +153,7 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     @And("I click on next step five")
     public void iClickOnNextStepFive() {
+        fullInstructionPage.clickOnNextButtonFive();
 
     }
 
