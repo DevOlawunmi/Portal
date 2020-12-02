@@ -156,25 +156,27 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
         fullInstructionPage.clickOnNextButtonFive();
 
     }
+    @And("I enter policyholder street number{string}")
+    public void iEnterPolicyholderStreetNumber(String arg0) {
 
-    @And("I enter policyholder street number")
-    public void iEnterPolicyholderStreetNumber() {
+    }
+
+    @And("I enter policyholder postcode {string}")
+    public void iEnterPolicyholderPostcode(String arg0) {
 
     }
 
-    @And("I enter policyholder postcode")
-    public void iEnterPolicyholderPostcode() {
 
-    }
+
 
     @And("I click on address lookup")
     public void iClickOnAddressLookup() {
 
     }
 
-    @And("I enter policyholder's email address")
-    public void iEnterPolicyholderSEmailAddress() {
 
+    @And("I enter policyholder's email address {string}")
+    public void iEnterPolicyholderSEmailAddress(String arg0) {
     }
 
     @And("I click on next step six")
@@ -225,6 +227,8 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
     @And("I click on the submit full instruction button")
     public void iClickOnTheSubmitFullInstructionButton() {
     }
+
+
 
 
 

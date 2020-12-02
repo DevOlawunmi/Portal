@@ -39,10 +39,10 @@ Feature: Submit a Full instruction
     And I click on next step four
     And select No to knowing insured vehicle details
     And I click on next step five
-    And I enter policyholder street number
-    And I enter policyholder postcode
+    And I enter policyholder street number"<policyholderStreetNumber>"
+    And I enter policyholder postcode "<policyholderPostcode>"
     And I click on address lookup
-    And I enter policyholder's email address
+    And I enter policyholder's email address "<policyholderEmail>"
     And I click on next step six
     And I answer yes to was policyholder driving?
     And I click on next step seven
