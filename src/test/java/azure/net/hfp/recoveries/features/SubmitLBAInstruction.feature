@@ -42,7 +42,7 @@ Feature: Submit an LBA instruction
 
     Examples:
       |password     | reference | Zurich system | accidentDate |policyholder title| firstName | lastName | Outlay|third Party Title | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |@Panoramah01    |AzDevLBA/004  |ZAC            |22/05/2018   |Miss  |CTest    |30Nov    |5400  |Mr   |Test                |Azure              |OE68EKU                 |AXA|AXA567       |
+      |@Panoramah01    |AzDevLBA/005  |ZAC            |22/05/2018   |Miss  |CTest    |30Nov    |5400  |Mr   |Test                |Azure              |OE68EKU                 |AXA|AXA567       |
 
 
 

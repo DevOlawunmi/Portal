@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1679000000,
+              "duration": 613000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "I navigate to Recoveries portal",
             "match": {
               "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_navigate_to_recoveries_portal()"
@@ -23,10 +23,10 @@
           },
           {
             "result": {
-              "duration": 5434000000,
+              "duration": 2356000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "I enter my username",
             "match": {
               "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterMyUsername()"
@@ -35,10 +35,10 @@
           },
           {
             "result": {
-              "duration": 263000000,
+              "duration": 206000000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 11,
             "name": "I enter my password",
             "match": {
               "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_enter_my_password()"
@@ -47,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 114000000,
+              "duration": 62000000,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "I click on the sign on button",
             "match": {
               "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iClickOnTheSignOnButton()"
@@ -59,42 +59,42 @@
           },
           {
             "result": {
-              "duration": 3559000000,
+              "duration": 3300000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "I click on Full Instruction",
+            "line": 13,
+            "name": "I click on LBA Instruction",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnFullInstruction()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iClickOnLBAInstruction()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 83000000,
+              "duration": 68000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Full Instruction \"\u003cFull Instruction page\u003e\" is displayed",
+            "line": 14,
+            "name": "LBA \"\u003cLBAPage\u003e\" is displayed",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cFull Instruction page\u003e\"",
-                  "offset": 17
+                  "val": "\"\u003cLBAPage\u003e\"",
+                  "offset": 4
                 }
               ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.fullInstructionIsDisplayed(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.lbaIsDisplayed(java.lang.String)"
             },
             "keyword": "Then "
           }
         ]
       },
       {
-        "start_timestamp": "2020-12-02T13:09:18.257Z",
+        "start_timestamp": "2020-12-03T11:29:53.277Z",
         "before": [
           {
             "result": {
-              "duration": 6441000000,
+              "duration": 6442000000,
               "status": "passed"
             },
             "match": {
@@ -102,14 +102,14 @@
             }
           }
         ],
-        "line": 62,
-        "name": "User Can Submit Full Instruction",
+        "line": 45,
+        "name": "User Can Submit LBA Instruction",
         "description": "",
-        "id": "submit-a-full-instruction;user-can-submit-full-instruction;;2",
+        "id": "submit-an-lba-instruction;user-can-submit-lba-instruction;;2",
         "after": [
           {
             "result": {
-              "duration": 693000000,
+              "duration": 760000000,
               "status": "passed"
             },
             "match": {
@@ -122,57 +122,57 @@
         "steps": [
           {
             "result": {
-              "duration": 154000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "I enter a \"Genz5678\" FI",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Genz5678\"",
-                  "offset": 10
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterAFI(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 350000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "I select the correct Zurich system from the dropdown list FI",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectTheCorrectZurichSystemFromTheDropdownListFI()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 151000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "I click on next step one",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepOne()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
               "duration": 386000000,
               "status": "passed"
             },
+            "line": 18,
+            "name": "I select the correct Zurich system from the dropdown list",
+            "match": {
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iSelectTheCorrectZurichSystemFromTheDropdownList()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000000,
+              "status": "passed"
+            },
             "line": 19,
-            "name": "I enter the \"2/6/2020\"",
+            "name": "I enter a \"AzDevLBA/005\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"2/6/2020\"",
+                  "val": "\"AzDevLBA/005\"",
+                  "offset": 10
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_enter_a(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on next step",
+            "match": {
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_click_on_next_step()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I enter the \"22/05/2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22/05/2018\"",
                   "offset": 12
                 }
               ],
@@ -182,336 +182,283 @@
           },
           {
             "result": {
-              "duration": 291000000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "I select policyholder title for full ins",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectPolicyholderTitleForFullIns()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "I enter the full ins policyholder firstName \"James Hadley\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"James Hadley\"",
-                  "offset": 44
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheFullInsPolicyholderFirstName(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 126000000,
+              "duration": 311000000,
               "status": "passed"
             },
             "line": 22,
-            "name": "I enter the full ins policyholder lastName \"Chase\"",
+            "name": "I select policyholder title",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Chase\"",
-                  "offset": 43
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheFullInsPolicyholderLastName(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iSelectPolicyholderTitle()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 146000000,
+              "duration": 200000000,
               "status": "passed"
             },
             "line": 23,
-            "name": "I enter the full ins outlay \"1800\"",
+            "name": "I enter the policyholder firstName \"CTest\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"1800\"",
-                  "offset": 28
+                  "val": "\"CTest\"",
+                  "offset": 35
                 }
               ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheFullInsOutlay(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_enter_the_policyholder_firstName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 254000000,
+              "duration": 160000000,
               "status": "passed"
             },
             "line": 24,
-            "name": "I click on the next step two",
+            "name": "I enter the policyholder lastName \"30Nov\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnTheNextStepTwo()"
+              "arguments": [
+                {
+                  "val": "\"30Nov\"",
+                  "offset": 34
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_enter_the_policyholder_lastName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 353000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "line": 25,
-            "name": "I select full ins third Party Title",
+            "name": "I enter the outlay \"5400\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectFullInsThirdPartyTitle()"
+              "arguments": [
+                {
+                  "val": "\"5400\"",
+                  "offset": 19
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterTheOutlay(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 147000000,
+              "duration": 226000000,
               "status": "passed"
             },
             "line": 26,
-            "name": "I enter the full ins thirdPartyFirstName \"Sidney\"",
+            "name": "I click on the next step",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Sidney\"",
-                  "offset": 41
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheFullInsThirdPartyFirstName(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_click_on_the_next_step()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 166000000,
+              "duration": 279000000,
               "status": "passed"
             },
             "line": 27,
-            "name": "I enter the full ins thirdPartyLastName \"Sheldon\"",
+            "name": "I select third Party Title",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Sheldon\"",
-                  "offset": 40
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheFullInsThirdPartyLastName(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iSelectThirdPartyTitle()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 114000000,
+              "duration": 104000000,
               "status": "passed"
             },
             "line": 28,
-            "name": "I select Yes to question Is third party Insured full inst",
+            "name": "I enter the thirdPartyFirstName \"Test\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectYesToQuestionIsThirdPartyInsuredFullInst()"
+              "arguments": [
+                {
+                  "val": "\"Test\"",
+                  "offset": 32
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterTheThirdPartyFirstName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 106000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 29,
-            "name": "I select No to do you know TP address full ins",
+            "name": "I enter the thirdPartyLastName \"Azure\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectNoToDoYouKnowTPAddressFullIns()"
+              "arguments": [
+                {
+                  "val": "\"Azure\"",
+                  "offset": 31
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterTheThirdPartyLastName(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 100000000,
+              "duration": 278000000,
               "status": "passed"
             },
             "line": 30,
-            "name": "I select No to knowing TP vehicle reg",
+            "name": "I select Yes to question \u0027Is third party Insured?\u0027",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectNoToKnowingTPVehicleReg()"
+              "arguments": [
+                {
+                  "val": "\u0027Is third party Insured?\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_select_yes_to_question(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 247000000,
+              "duration": 213000000,
               "status": "passed"
             },
             "line": 31,
-            "name": "I click on the next step three",
+            "name": "I select No to do you know TP address",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnTheNextStepThree()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_select_no_to_do_you_know_tp_address()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 375000000,
+              "duration": 225000000,
               "status": "passed"
             },
             "line": 32,
-            "name": "I select TPI \"ACE Insurance\"",
+            "name": "I select Yes to knowing TP vehicle reg",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"ACE Insurance\"",
-                  "offset": 13
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectTPI(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_select_yes_to_knowing_tp_vehicle_reg()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 33,
-            "name": "I enter the TPI street \"\u003cnumber\u003e\"",
+            "name": "I enter the third party VRN \"OE68EKU\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cnumber\u003e\"",
-                  "offset": 23
+                  "val": "\"OE68EKU\"",
+                  "offset": 28
                 }
               ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheTPIStreet(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterTheThirdPartyVRN(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 152000000,
+              "duration": 1139000000,
               "status": "passed"
             },
             "line": 34,
-            "name": "I enter the TPI \"\u003cpostcode\u003e\"",
+            "name": "I click on VRN Search",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"\u003cpostcode\u003e\"",
-                  "offset": 16
-                }
-              ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheTPI(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iClickOnVRNSearch()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1138000000,
+              "duration": 355000000,
               "status": "passed"
             },
             "line": 35,
-            "name": "I click on the address lookup",
+            "name": "I click on the next step again",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnTheAddressLookup()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_click_on_the_next_step_again()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 181000000,
+              "duration": 285000000,
               "status": "passed"
             },
             "line": 36,
-            "name": "I enter the insurer \"\u003creference number\u003e\"",
+            "name": "I enter \"AXA\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003creference number\u003e\"",
-                  "offset": 20
+                  "val": "\"AXA\"",
+                  "offset": 8
                 }
               ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheInsurer(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_enter(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 182000000,
+              "duration": 1108000000,
               "status": "passed"
             },
             "line": 37,
-            "name": "I enter the insurer email \"\u003cemail\u003e\"",
+            "name": "I enter the insurer reference \"AXA567\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"\u003cemail\u003e\"",
-                  "offset": 26
+                  "val": "\"AXA567\"",
+                  "offset": 30
                 }
               ],
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheInsurerEmail(java.lang.String)"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iEnterTheInsurerReference(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 137000000,
+              "duration": 249000000,
               "status": "passed"
             },
             "line": 38,
-            "name": "I select no to ripe insurer",
+            "name": "I select Yes to Ripe insurer",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iSelectNoToRipeInsurer()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_select_yes_to_ripe_insurer()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 1160000000,
               "status": "passed"
             },
             "line": 39,
-            "name": "I click on next step four",
+            "name": "I click on the next step button again",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepFour()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.iClickOnTheNextStepButtonAgain()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 117000000,
+              "duration": 5188000000,
               "status": "passed"
             },
             "line": 40,
-            "name": "select No to knowing insured vehicle details",
+            "name": "I click on the submit button",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.selectNoToKnowingInsuredVehicleDetails()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 197000000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "I click on next step five",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepFive()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "I enter policyholder street number",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterPolicyholderStreetNumber()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.i_click_on_the_submit_button()"
             },
             "keyword": "And "
           },
@@ -520,161 +467,29 @@
               "duration": 1000000,
               "status": "passed"
             },
-            "line": 43,
-            "name": "I enter policyholder postcode",
+            "line": 41,
+            "name": "my submission reference is displayed",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterPolicyholderPostcode()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 44,
-            "name": "I click on address lookup",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnAddressLookup()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 45,
-            "name": "I enter policyholder\u0027s email address",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterPolicyholderSEmailAddress()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 46,
-            "name": "I click on next step six",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepSix()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 47,
-            "name": "I answer yes to was policyholder driving?",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iAnswerYesToWasPolicyholderDriving()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 48,
-            "name": "I click on next step seven",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepSeven()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 49,
-            "name": "I answer yes to was third party driving?",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iAnswerYesToWasThirdPartyDriving()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 50,
-            "name": "I click on next step eight",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepEight()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "I enter the accident location",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentLocation()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "I enter the accident circumstances",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentCircumstances()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 53,
-            "name": "I click on next step nine",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnNextStepNine()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 54,
-            "name": "the summary page is displayed",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.theSummaryPageIsDisplayed()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 55,
-            "name": "I click on the submit full instruction button",
-            "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iClickOnTheSubmitFullInstructionButton()"
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitLBASteps.my_submission_reference_is_displayed()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@full_instruction"
+            "name": "@lba_test"
           }
         ]
       }
     ],
-    "name": "Submit a Full instruction",
-    "description": "  As a portal user\n  I want to provide all required information\n  So I can submit a Full Instruction",
-    "id": "submit-a-full-instruction",
+    "name": "Submit an LBA instruction",
+    "description": "  As a portal user\n  I want to provide all required information\n  So I can submit an LBA Instruction",
+    "id": "submit-an-lba-instruction",
     "keyword": "Feature",
-    "uri": "file:src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature",
+    "uri": "file:src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature",
     "tags": [
       {
-        "name": "@full_instruction",
+        "name": "@lba_test",
         "type": "Tag",
         "location": {
           "line": 1,
