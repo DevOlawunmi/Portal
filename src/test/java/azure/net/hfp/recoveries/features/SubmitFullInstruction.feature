@@ -42,6 +42,7 @@ Feature: Submit a Full instruction
     And I enter policyholder street number"<policyholderStreetNumber>"
     And I enter policyholder postcode "<policyholderPostcode>"
     And I click on address lookup
+    And I enter policyholder phone number "<phone number>"
     And I enter policyholder's email address "<policyholderEmail>"
     And I click on next step six
     And I answer yes to was policyholder driving?

@@ -173,6 +173,9 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
         fullInstructionPage.lookUpPolicyholderAddress();
 
     }
+    @And("I enter policyholder phone number {string}")
+    public void iEnterPolicyholderPhoneNumber(String arg0) {
+    }
 
 
     @And("I enter policyholder's email address {string}")
@@ -227,8 +230,6 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
     @And("I click on the submit full instruction button")
     public void iClickOnTheSubmitFullInstructionButton() {
     }
-
-
 
 
 
