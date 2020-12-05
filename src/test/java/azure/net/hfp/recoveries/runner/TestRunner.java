@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/java/azure/net/hfp/recoveries/features"},
         plugin = {"pretty","json:target/report.json","de.monochromata.cucumber.report.PrettyReports:target/pretty-cucumber"},
         glue = {"azure/net/hfp/recoveries/hook","azure/net/hfp/recoveries/stepDefinitions"},
-        tags = "@lba_test"
+        tags = "@full_instruction"
 
 
 

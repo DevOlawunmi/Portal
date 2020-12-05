@@ -157,20 +157,20 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     }
     @And("I enter policyholder street number{string}")
-    public void iEnterPolicyholderStreetNumber(String arg0) {
+    public void iEnterPolicyholderStreetNumber(String streetNumber) {
+        fullInstructionPage.enterPolicyholderStreetNumber("55");
 
     }
 
     @And("I enter policyholder postcode {string}")
-    public void iEnterPolicyholderPostcode(String arg0) {
+    public void iEnterPolicyholderPostcode(String postcode) {
+        fullInstructionPage.enterPolicyholderPostcode("ST4 3LT");
 
     }
 
-
-
-
     @And("I click on address lookup")
     public void iClickOnAddressLookup() {
+        fullInstructionPage.lookUpPolicyholderAddress();
 
     }
 
