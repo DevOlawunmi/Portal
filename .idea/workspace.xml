@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="" />
+    <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/FullInstructionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/FullInstructionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1680475300.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_1680475300.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1253193274.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1253193274.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,11 +410,17 @@
       <option name="project" value="LOCAL" />
       <updated>1607144583375</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Policyholder phone number step added">
+      <created>1607144907730</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1607144907730</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tag and Search Cases feature updated" />
     <MESSAGE value="Search Cases successful" />
     <MESSAGE value="Submit Full Instruction Feature added" />
     <MESSAGE value="Submit Full Instruction Feature updated" />
@@ -426,7 +445,8 @@
     <MESSAGE value="Full Instruction feature file updated" />
     <MESSAGE value="Full Instruction feature file updated 2" />
     <MESSAGE value="Policyholder Address Lookup pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Policyholder Address Lookup pass" />
+    <MESSAGE value="Policyholder phone number step added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Policyholder phone number step added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
@@ -441,30 +461,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607144582632">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607144907012">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607144582632" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607144907012" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1606712136771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606712136771" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1607144612472">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1607228495494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607144612472" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1607144612472">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607228495494" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1607228495494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607144612472" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1607144612472">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607228495494" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1607228495494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607144612472" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1607144612472">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607228495494" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1607228495494">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607144612472" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607228495494" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -473,14 +493,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607144586509">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607144914544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607144586509" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607144722228">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607144914544" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607227436021">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607144722228" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607227436021" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606712076340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

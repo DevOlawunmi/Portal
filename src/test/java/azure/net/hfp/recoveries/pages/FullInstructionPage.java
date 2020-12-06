@@ -67,6 +67,12 @@ public class FullInstructionPage extends BasePage{
     private WebElement policyholderPostcodeField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[1]/formly-group/formly-field[3]/app-button-wrapper/div[1]/div/button")
     private WebElement addressLookupButton;
+    @FindBy (xpath = "//*[@id=\"formly_91_appInput_policyholderPhone_1\"]")
+    private WebElement policyholderPhoneField;
+    @FindBy (xpath = "//*[@id=\"formly_91_appInput_policyholderEmail_2\"]")
+    private WebElement policyholderEmailField;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextStep6Button;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -192,7 +198,7 @@ public class FullInstructionPage extends BasePage{
     public void setDoYouKnowInsuredVehicleDetailsNo(){
         doYouKnowInsuredVehicleDetailsNo.click();
     }
-    public void clickOnNextButtonFive(){
+    public void clickOnNextStepFive(){
         nextStep5Button.click();
     }
     public void enterPolicyholderStreetNumber (String streetNumber){
@@ -204,6 +210,18 @@ public class FullInstructionPage extends BasePage{
     public void lookUpPolicyholderAddress(){
         addressLookupButton.click();
     }
+    public void enterPolicyholderPhone(String phone){
+        policyholderPhoneField.sendKeys(phone);
+    }
+    public void enterPolicyholderEmail(String email){
+        policyholderEmailField.sendKeys(email);
+    }
+    public void clickOnNextStepSix(){
+        nextStep6Button.click();
+    }
+
+
+
 
 
 }

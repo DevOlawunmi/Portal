@@ -153,7 +153,7 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     @And("I click on next step five")
     public void iClickOnNextStepFive() {
-        fullInstructionPage.clickOnNextButtonFive();
+        fullInstructionPage.clickOnNextStepFive();
 
     }
     @And("I enter policyholder street number{string}")
@@ -174,16 +174,19 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     }
     @And("I enter policyholder phone number {string}")
-    public void iEnterPolicyholderPhoneNumber(String arg0) {
+    public void iEnterPolicyholderPhoneNumber(String phone) {
+        fullInstructionPage.enterPolicyholderPhone("016788896");
     }
 
 
     @And("I enter policyholder's email address {string}")
-    public void iEnterPolicyholderSEmailAddress(String arg0) {
+    public void iEnterPolicyholderSEmailAddress(String email) {
+        fullInstructionPage.enterPolicyholderEmail("policyholder@test.com");
     }
 
     @And("I click on next step six")
     public void iClickOnNextStepSix() {
+        fullInstructionPage.clickOnNextStepSix();
 
     }
 
