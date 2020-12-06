@@ -192,21 +192,25 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     @And("I answer yes to was policyholder driving?")
     public void iAnswerYesToWasPolicyholderDriving() {
+        fullInstructionPage.selectYesToPolicyholderDriving();
 
     }
 
     @And("I click on next step seven")
     public void iClickOnNextStepSeven() {
+        fullInstructionPage.clickOnNextStepSeven();
 
     }
 
     @And("I answer yes to was third party driving?")
     public void iAnswerYesToWasThirdPartyDriving() {
+        fullInstructionPage.selectYesToThirdPartyDriving();
 
     }
 
     @And("I click on next step eight")
     public void iClickOnNextStepEight() {
+        fullInstructionPage.clickOnNextStepEight();
 
     }
 

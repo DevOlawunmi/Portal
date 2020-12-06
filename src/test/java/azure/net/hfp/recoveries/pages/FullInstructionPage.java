@@ -73,6 +73,14 @@ public class FullInstructionPage extends BasePage{
     private WebElement policyholderEmailField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextStep6Button;
+    @FindBy (xpath = "//*[@id=\"formly_94_appRadio_isPolicyholderDriver_0_0\"]")
+    private WebElement isPolicyholderDriverYes;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextStep7Button;
+    @FindBy (xpath = "//*[@id=\"formly_340_appRadio_isThirdPartyDriver_0_0\"]")
+    private WebElement isThirdPartyDriverYes;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-full-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    private WebElement nextStep8Button;
 
     public FullInstructionPage(WebDriver driver){
         PageFactory.initElements(driver, this);
@@ -218,6 +226,18 @@ public class FullInstructionPage extends BasePage{
     }
     public void clickOnNextStepSix(){
         nextStep6Button.click();
+    }
+    public void selectYesToPolicyholderDriving(){
+        isPolicyholderDriverYes.click();
+    }
+    public void clickOnNextStepSeven(){
+        nextStep7Button.click();
+    }
+    public void selectYesToThirdPartyDriving(){
+        isThirdPartyDriverYes.click();
+    }
+    public void clickOnNextStepEight(){
+        nextStep8Button.click();
     }
 
 
