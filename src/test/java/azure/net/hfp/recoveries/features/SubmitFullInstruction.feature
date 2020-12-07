@@ -49,8 +49,8 @@ Feature: Submit a Full instruction
     And I click on next step seven
     And I answer yes to was third party driving?
     And I click on next step eight
-    And I enter the accident location
-    And I enter the accident circumstances
+    And I enter the accident location "<accident location>"
+    And I enter the accident circumstances "<accident circumstances>"
     And I click on next step nine
     Then the summary page is displayed
     And I click on the submit full instruction button

@@ -213,20 +213,22 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
         fullInstructionPage.clickOnNextStepEight();
 
     }
-
-    @And("I enter the accident location")
-    public void iEnterTheAccidentLocation() {
-
-    }
-
-    @And("I enter the accident circumstances")
-    public void iEnterTheAccidentCircumstances() {
+    @And("I enter the accident location {string}")
+    public void iEnterTheAccidentLocation(String location) {
+        fullInstructionPage.enterAccidentLocation("Glasgow");
 
     }
+
+    @And("I enter the accident circumstances {string}")
+    public void iEnterTheAccidentCircumstances(String circumstances) {
+        fullInstructionPage.enterAccidentCircumstances("It was a very foggy day ...");
+    }
+
+
 
     @And("I click on next step nine")
     public void iClickOnNextStepNine() {
-
+fullInstructionPage.clickOnNextStepNine();
     }
 
     @Then("the summary page is displayed")
@@ -236,6 +238,7 @@ fullInstructionPage.setDoYouKnowInsuredVehicleDetailsNo();
 
     @And("I click on the submit full instruction button")
     public void iClickOnTheSubmitFullInstructionButton() {
+        fullInstructionPage.clickOnSubmitButton();
     }
 
 

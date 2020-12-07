@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 648000000,
+              "duration": 973000000,
               "status": "passed"
             },
             "line": 7,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2044000000,
+              "duration": 3967000000,
               "status": "passed"
             },
             "line": 8,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 276000000,
               "status": "passed"
             },
             "line": 9,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 59000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 10,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2969000000,
+              "duration": 3599000000,
               "status": "passed"
             },
             "line": 11,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 75000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "line": 12,
@@ -90,11 +90,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-12-06T05:04:24.033Z",
+        "start_timestamp": "2020-12-07T03:59:37.707Z",
         "before": [
           {
             "result": {
-              "duration": 6439000000,
+              "duration": 9436000000,
               "status": "passed"
             },
             "match": {
@@ -109,7 +109,7 @@
         "after": [
           {
             "result": {
-              "duration": 670000000,
+              "duration": 706000000,
               "status": "passed"
             },
             "match": {
@@ -122,7 +122,7 @@
         "steps": [
           {
             "result": {
-              "duration": 101000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 16,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 329000000,
+              "duration": 342000000,
               "status": "passed"
             },
             "line": 17,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 108000000,
+              "duration": 106000000,
               "status": "passed"
             },
             "line": 18,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 229000000,
+              "duration": 238000000,
               "status": "passed"
             },
             "line": 19,
@@ -182,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 255000000,
+              "duration": 251000000,
               "status": "passed"
             },
             "line": 20,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 108000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 21,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 108000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 22,
@@ -230,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 90000000,
+              "duration": 88000000,
               "status": "passed"
             },
             "line": 23,
@@ -248,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 193000000,
+              "duration": 209000000,
               "status": "passed"
             },
             "line": 24,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 248000000,
+              "duration": 257000000,
               "status": "passed"
             },
             "line": 25,
@@ -272,7 +272,7 @@
           },
           {
             "result": {
-              "duration": 98000000,
+              "duration": 100000000,
               "status": "passed"
             },
             "line": 26,
@@ -290,7 +290,7 @@
           },
           {
             "result": {
-              "duration": 110000000,
+              "duration": 99000000,
               "status": "passed"
             },
             "line": 27,
@@ -308,7 +308,7 @@
           },
           {
             "result": {
-              "duration": 91000000,
+              "duration": 105000000,
               "status": "passed"
             },
             "line": 28,
@@ -320,7 +320,7 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "line": 29,
@@ -332,7 +332,7 @@
           },
           {
             "result": {
-              "duration": 73000000,
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 30,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 168000000,
+              "duration": 181000000,
               "status": "passed"
             },
             "line": 31,
@@ -356,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 317000000,
+              "duration": 318000000,
               "status": "passed"
             },
             "line": 32,
@@ -374,7 +374,7 @@
           },
           {
             "result": {
-              "duration": 112000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 33,
@@ -392,7 +392,7 @@
           },
           {
             "result": {
-              "duration": 134000000,
+              "duration": 121000000,
               "status": "passed"
             },
             "line": 34,
@@ -410,7 +410,7 @@
           },
           {
             "result": {
-              "duration": 1094000000,
+              "duration": 1091000000,
               "status": "passed"
             },
             "line": 35,
@@ -422,7 +422,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "line": 36,
@@ -440,7 +440,7 @@
           },
           {
             "result": {
-              "duration": 134000000,
+              "duration": 136000000,
               "status": "passed"
             },
             "line": 37,
@@ -458,7 +458,7 @@
           },
           {
             "result": {
-              "duration": 74000000,
+              "duration": 78000000,
               "status": "passed"
             },
             "line": 38,
@@ -470,7 +470,7 @@
           },
           {
             "result": {
-              "duration": 85000000,
+              "duration": 90000000,
               "status": "passed"
             },
             "line": 39,
@@ -482,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 65000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "line": 40,
@@ -494,7 +494,7 @@
           },
           {
             "result": {
-              "duration": 168000000,
+              "duration": 162000000,
               "status": "passed"
             },
             "line": 41,
@@ -506,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 84000000,
+              "duration": 78000000,
               "status": "passed"
             },
             "line": 42,
@@ -524,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 87000000,
+              "duration": 98000000,
               "status": "passed"
             },
             "line": 43,
@@ -554,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 197000000,
+              "duration": 1176000000,
               "status": "passed"
             },
             "line": 45,
@@ -572,7 +572,7 @@
           },
           {
             "result": {
-              "duration": 190000000,
+              "duration": 146000000,
               "status": "passed"
             },
             "line": 46,
@@ -590,7 +590,7 @@
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 135000000,
               "status": "passed"
             },
             "line": 47,
@@ -602,7 +602,7 @@
           },
           {
             "result": {
-              "duration": 96000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "line": 48,
@@ -614,7 +614,7 @@
           },
           {
             "result": {
-              "duration": 132000000,
+              "duration": 125000000,
               "status": "passed"
             },
             "line": 49,
@@ -626,9 +626,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"formly_340_appRadio_isThirdPartyDriver_0_0\"]\"}\n  (Session info: chrome\u003d86.0.4240.198)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-K0OMLE0H\u0027, ip: \u0027192.168.0.68\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_241\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\olawu\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64353}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e4e9ee0d972ce2cb91d63cc667b9acfb\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"formly_340_appRadio_isThirdPartyDriver_0_0\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\r\n\tat azure.net.hfp.recoveries.pages.FullInstructionPage.selectYesToThirdPartyDriving(FullInstructionPage.java:237)\r\n\tat azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iAnswerYesToWasThirdPartyDriving(SubmitFullInstructionSteps.java:207)\r\n\tat ✽.I answer yes to was third party driving?(file:///C:/workspace/HFPortal/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature:50)\r\n",
-              "duration": 30030000000,
-              "status": "failed"
+              "duration": 78000000,
+              "status": "passed"
             },
             "line": 50,
             "name": "I answer yes to was third party driving?",
@@ -639,7 +638,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 71000000,
+              "status": "passed"
             },
             "line": 51,
             "name": "I click on next step eight",
@@ -650,29 +650,44 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 83000000,
+              "status": "passed"
             },
             "line": 52,
-            "name": "I enter the accident location",
+            "name": "I enter the accident location \"\u003caccident location\u003e\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentLocation()"
+              "arguments": [
+                {
+                  "val": "\"\u003caccident location\u003e\"",
+                  "offset": 30
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentLocation(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 111000000,
+              "status": "passed"
             },
             "line": 53,
-            "name": "I enter the accident circumstances",
+            "name": "I enter the accident circumstances \"\u003caccident circumstances\u003e\"",
             "match": {
-              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentCircumstances()"
+              "arguments": [
+                {
+                  "val": "\"\u003caccident circumstances\u003e\"",
+                  "offset": 35
+                }
+              ],
+              "location": "azure.net.hfp.recoveries.stepDefinitions.SubmitFullInstructionSteps.iEnterTheAccidentCircumstances(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 141000000,
+              "status": "passed"
             },
             "line": 54,
             "name": "I click on next step nine",
@@ -683,7 +698,7 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 55,
             "name": "the summary page is displayed",
@@ -694,7 +709,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 98000000,
+              "status": "passed"
             },
             "line": 56,
             "name": "I click on the submit full instruction button",
