@@ -4,8 +4,8 @@
     <list default="true" id="47dfc0b0-55dc-495e-a069-f09dbc243dfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/FullInstructionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/FullInstructionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
@@ -13,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_95530736.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_95530736.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1905954589.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1905954589.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/pages/FullInstructionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/pages/FullInstructionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitFullInstructionSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,63 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestRunner">
+    <configuration name="Feature: SubmitLBAInstruction" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" />
+      <option name="GLUE" value="azure.net.hfp.recoveries.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HFPortal" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SubmitLBAInstruction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User Can Submit LBA Instruction" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" />
+      <option name="GLUE" value="azure.net.hfp.recoveries.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HFPortal" />
+      <option name="NAME_FILTER" value="^User Can Submit LBA Instruction$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User Can Submit LBA Instruction$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User Can Submit LBA Instruction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" />
+      <option name="GLUE" value="azure.net.hfp.recoveries.stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HFPortal" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HFPortal" />
       <extension name="coverage">
@@ -68,6 +126,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber java.Scenario: " />
+        <item itemvalue="Cucumber java.Scenario: User Can Submit LBA Instruction" />
+        <item itemvalue="Cucumber java.Feature: SubmitLBAInstruction" />
       </list>
     </recent_temporary>
   </component>
@@ -430,11 +491,17 @@
       <option name="project" value="LOCAL" />
       <updated>1607231217296</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Full Instruction successfully submitted">
+      <created>1607313661578</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1607313661578</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Submit Full Instruction Feature updated" />
     <MESSAGE value="Submit Full Instruction step definitions added" />
     <MESSAGE value="Full Instruction page successfully displayed" />
     <MESSAGE value="Full instruction feature file updated" />
@@ -459,7 +526,8 @@
     <MESSAGE value="Policyholder phone number step added" />
     <MESSAGE value="Steps 1-6 completed" />
     <MESSAGE value="Steps 1-7 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Steps 1-7 completed" />
+    <MESSAGE value="Full Instruction successfully submitted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Instruction successfully submitted" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
@@ -474,30 +542,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607231216692">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1607313660836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607231216692" />
-    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1606712136771">
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607313660836" />
+    <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1607393674182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606712136771" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1607313575015">
+    <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607393674182" />
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1609734274945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607313575015" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1607313575015">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609734274945" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1609734274945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607313575015" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1607313575015">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609734274945" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1609734274945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607313575015" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1607313575015">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609734274945" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1609734274945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607313575015" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609734274945" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -506,22 +574,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607231221239">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1607313664719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607231221239" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607311791636">
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607313664719" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1607393472372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607311791636" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1607393472372" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606712076340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606712076340" />
-    <state x="209" y="68" key="new project wizard" timestamp="1604549128207">
+    <state x="209" y="68" key="new project wizard" timestamp="1607393764707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604549128207" />
+    <state x="209" y="68" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607393764707" />
     <state x="521" y="335" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1603561126284">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
