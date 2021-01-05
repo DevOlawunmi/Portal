@@ -60,4 +60,4 @@ Feature: Submit a Full instruction
 
     Examples:
       | reference | accidentDate | firstName | lastName | outlay | thirdPartyFirstName | thirdPartyLastName |thirdPartyInsurer|
-    |FullInstGenz5678   |2/9/2019     |James Hadley|Chase    |1800    |Sidney               |Sheldon             |ACE Insurance    |
+    |FullInstGenz0521   |2/9/2020     |Patricia|Conwell    |2700.45   |Susan               |Sarandon            |ACE Insurance    |
