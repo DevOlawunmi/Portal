@@ -1,5 +1,5 @@
 @full_instruction
-Feature: Submit a Full instruction
+Feature: Submit a Full instruction Zurich
   As a portal user
   I want to provide all required information
   So I can submit a Full Instruction
@@ -12,7 +12,7 @@ Feature: Submit a Full instruction
     Then Full Instruction "<Full Instruction page>" is displayed
 
 
-  Scenario Outline: User Can Submit Full Instruction
+  Scenario Outline: Zurich User Can Submit Full Instruction
     And I enter a "<reference>" FI
     And I select the correct Zurich system from the dropdown list FI
     And I click on next step one
@@ -60,4 +60,4 @@ Feature: Submit a Full instruction
 
     Examples:
       | reference | accidentDate | firstName | lastName | outlay | thirdPartyFirstName | thirdPartyLastName |thirdPartyInsurer|
-    |FullInstGenz0521   |2/9/2020     |Patricia|Conwell    |2700.45   |Susan               |Sarandon            |ACE Insurance    |
+    |FullInstGenz06018   |2/9/2020     |Patty|Cowel   |2700.45   |Sussie               |Blandish            |ACE Insurance    |
