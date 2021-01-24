@@ -23,16 +23,22 @@ public class LBAPage extends BasePage {
     private WebElement nextButton1;
     @FindBy(id = "formly_6_appStaticSelect_bacs_4")
     private WebElement zurichList;
-    @FindBy (xpath = "//*[@id=\"formly_19_appDatepicker_accidentDate_0\"]")
+    @FindBy (xpath = "//*[@id=\"formly_23_appDatepicker_accidentDate_0\"]")
     private WebElement accidentDateField;
+   @FindBy (xpath = "//*[@id=\"formly_23_appRadio_policyholderPersonalOrCommercial_1_0\"]")
+   private WebElement privatePH;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/app-static-select-field/div/mat-form-field")
     private WebElement policyholderTitleField;
-    @FindBy (xpath = "//*[@id=\"formly_19_appInput_policyholderFirstName_2\"]")
+    @FindBy (xpath = "//*[@id=\"formly_23_appInput_policyholderFirstName_4\"]")
     private WebElement policyholderFirstNameField;
-    @FindBy (xpath = "//*[@id=\"formly_19_appInput_policyholderLastName_3\"]")
+    @FindBy (xpath = "//*[@id=\"formly_23_appInput_policyholderLastName_5\"]")
     private WebElement policyholderLastNameField;
-    @FindBy (xpath = "//*[@id=\"formly_19_appInput_outlayAmount_4\"]")
+    @FindBy (xpath = "//*[@id=\"formly_23_appInput_outlayAmount_6\"]")
     private WebElement outlayAmountField;
+    @FindBy (xpath = "//*[@id=\"formly_23_appStaticSelect_liabilityDecision_8\"]")
+    private WebElement liabilityDecisionField;
+    @FindBy (xpath = "//*[@id=\"formly_23_appInput_liabilityApportionment_9\"]")
+    private WebElement liabilityApportionmentField;
     @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextButton2;
     @FindBy (xpath = "//*[@id=\"formly_26_appStaticSelect_title_0\"]/div")
@@ -108,10 +114,14 @@ public class LBAPage extends BasePage {
         nextButton1.click();
     }
 
+    public void selectPrivatePH(){
+        privatePH.click();
+    }
+
     public void selectPolicyholderTitle(){
-        driver.findElement(By.xpath("/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/app-static-select-field/div/mat-form-field/div/div[1]")).click();
+        driver.findElement(By.xpath("//*[@id=\"formly_23_appStaticSelect_policyholderTitle_3\"]")).click();
         WebElement element2 = driver.findElement(By.xpath(
-                "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/app-static-select-field/div/mat-form-field"));
+                "//*[@id=\"formly_23_appStaticSelect_policyholderTitle_3\"]/div/div[1]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element2).click().perform();
     }
@@ -128,6 +138,14 @@ public class LBAPage extends BasePage {
 
     public void enterOutlayAmount(String outlay){
         outlayAmountField.sendKeys(outlay);
+    }
+
+    public void selectLiabilityDecision(){
+        liabilityDecisionField.click();
+    }
+
+    public void enterLiabilityApportionment(String apptmt){
+        liabilityApportionmentField.sendKeys("60");
     }
 
     public void clickOnTheNextStepButton(){

@@ -36,6 +36,14 @@ public class HomePage extends BasePage {
         waitForElementToBeDisplayed(passwordField);
         passwordField.clear();
         passwordField.sendKeys(userPassword);
+        try
+        {
+            Thread.sleep(1000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
     }
 
     public void clickOnLBAInstruction()  {

@@ -19,10 +19,13 @@ Feature: Submit an LBA instruction
     And I enter a "<reference>"
     And I click on next step
     And I enter the "<accidentDate>"
+    And I select personal policyholder
     And I select policyholder title
     And I enter the policyholder firstName "<firstName>"
     And I enter the policyholder lastName "<lastName>"
     And I enter the outlay "<Outlay>"
+    And I select liability decision dispute
+    And I enter liability apptmt
     And I click on the next step
     And I select third Party Title
     And I enter the thirdPartyFirstName "<thirdPartyFirstName>"
@@ -42,7 +45,7 @@ Feature: Submit an LBA instruction
 
     Examples:
       |password     | reference | Zurich system | accidentDate |policyholder title| firstName | lastName | Outlay|third Party Title | thirdPartyFirstName | thirdPartyLastName |thirdPartyVRN|thirdPartyInsurer|insurerReference|
-      |@Panoramah01    |AzDevLBA/0601  |ZAC            |22/05/2018   |Miss  |Huck    |Finn   |5420.60  |Mr   |Test2021                |Azure              |MK62UMU                 |AXA|AXA567       |
+      |@Panoramah01    |AzDevLBA/0801  |ZAC            |22/05/2018   |Miss  |JC    |Penny   |5420.60  |Mr   |Test2021                |Azure              |MK62UMU                 |AXA|AXA567       |
 
 
 

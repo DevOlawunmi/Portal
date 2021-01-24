@@ -21,13 +21,13 @@ public class SubmitLBASteps extends BasePage {
     @And("I enter my username")
     public void iEnterMyUsername()
     {
-        homePage.enterUserName("Ola.ajibola@h-f.co.uk");
+        homePage.enterUserName("olawunmi263@yahoo.com");
     }
 
 
     @Given("I enter my password")
     public void i_enter_my_password() throws InterruptedException {
-        homePage.enterPassword("@Panoramah01");
+        homePage.enterPassword("@Myzurichpassword1");
 
     }
     @Then("LBA {string} is displayed")
@@ -59,11 +59,13 @@ public class SubmitLBASteps extends BasePage {
     public void i_enter_the(String accidentDate) {
 lbaPage.enterAccidentDate(accidentDate);
     }
-    @And("I select third Party Title")
-    public void iSelectThirdPartyTitle() {
-        lbaPage.selectThirdPartyTitle();
 
+    @And("I select personal policyholder")
+    public void iSelectPersonalPolicyholder() {
+        lbaPage.selectPrivatePH();
     }
+
+
     @And("I select policyholder title")
     public void iSelectPolicyholderTitle() {
         lbaPage.selectPolicyholderTitle();
@@ -86,10 +88,28 @@ lbaPage.enterAccidentDate(accidentDate);
         lbaPage.enterOutlayAmount(outlay);
     }
 
+    @And("I select liability decision dispute")
+    public void iSelectLiabilityDecisionDispute() {
+        lbaPage.selectLiabilityDecision();
+    }
+
+    @And("I enter liability apptmt")
+    public void iEnterLiabilityApptmt() {
+        lbaPage.enterLiabilityApportionment("60");
+    }
+
     @When("I click on the next step")
     public void i_click_on_the_next_step() {
         lbaPage.clickOnTheNextStepButton();
     }
+
+    @And("I select third Party Title")
+    public void iSelectThirdPartyTitle() {
+        lbaPage.selectThirdPartyTitle();
+
+    }
+
+
     @And("I enter the thirdPartyFirstName {string}")
     public void iEnterTheThirdPartyFirstName(String thirdPartyFirstName) {
         lbaPage.enterThirdPartyFirstName(thirdPartyFirstName);
@@ -182,11 +202,6 @@ lbaPage.clickOnSubmitButton();
     public void iClickOnTheSignOnButton() {
         lbaPage.clickOnSignOnButton();
     }
-
-
-
-
-
 
 
 }

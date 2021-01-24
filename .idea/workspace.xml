@@ -5,14 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitFullInstruction.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/features/SubmitLBAInstruction.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/pages/LBAPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/runner/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_684068928.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_684068928.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_95530736.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_95530736.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1905954589.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-tag_1905954589.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/runner/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/runner/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/azure/net/hfp/recoveries/stepDefinitions/SubmitLBASteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598417341222</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Submit LBA feature file added">
-      <created>1601006876708</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601006876708</updated>
     </task>
     <task id="LOCAL-00004" summary="Steps Definition successfully generated">
       <created>1601008217884</created>
@@ -496,11 +489,17 @@
       <option name="project" value="LOCAL" />
       <updated>1609847658588</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Zurich FI feature file updated">
+      <created>1610081362847</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1610081362847</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Full instruction feature file updated" />
     <MESSAGE value="Selenium notes added" />
     <MESSAGE value="Convert LBA to Full Instruction feature added" />
     <MESSAGE value="Full Ins feature updated" />
@@ -525,13 +524,10 @@
     <MESSAGE value="Full Instruction successfully submitted" />
     <MESSAGE value="Lba instruction pass 2021" />
     <MESSAGE value="Lba instruction pass" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lba instruction pass" />
+    <MESSAGE value="Zurich FI feature file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zurich FI feature file updated" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1601980349991">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601980349991" />
     <state x="456" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603807728542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -540,42 +536,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="396" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1603107689959" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1609847657747">
+    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1610081362040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609847657747" />
+    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610081362040" />
     <state x="549" y="155" key="FileChooserDialogImpl" timestamp="1607393674182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="155" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607393674182" />
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1609946203098">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom" timestamp="1611467486896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1609946203098" />
-    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1609946203097">
+    <state width="1493" height="256" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611467486896" />
+    <state width="1493" height="256" key="GridCell.Tab.0.center" timestamp="1611467486896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1609946203097" />
-    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1609946203097">
+    <state width="1493" height="256" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611467486896" />
+    <state width="1493" height="256" key="GridCell.Tab.0.left" timestamp="1611467486896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1609946203097" />
-    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1609946203098">
+    <state width="1493" height="256" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611467486896" />
+    <state width="1493" height="256" key="GridCell.Tab.0.right" timestamp="1611467486896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1609946203098" />
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1602233713702">
+    <state width="1493" height="256" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611467486896" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1610081366424">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1602233713702" />
-    <state x="563" y="124" key="RollbackChangesDialog" timestamp="1601609551028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="563" y="124" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1601609551028" />
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2" timestamp="1609847661699">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609847661699" />
+    <state x="361" y="135" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610081366424" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1609989528088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -592,9 +580,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="335" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603561126284" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1602246091991">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1602246091991" />
   </component>
 </project>
