@@ -39,7 +39,7 @@ public class LBAPage extends BasePage {
     private WebElement liabilityDecisionField;
     @FindBy (xpath = "//*[@id=\"formly_23_appInput_liabilityApportionment_9\"]")
     private WebElement liabilityApportionmentField;
-    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
+    @FindBy (xpath= "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextButton2;
     @FindBy (xpath = "//*[@id=\"formly_26_appStaticSelect_title_0\"]/div")
     private WebElement thirdPartyTitleField;
@@ -146,7 +146,16 @@ public class LBAPage extends BasePage {
 
     public void enterLiabilityApportionment(String apptmt){
         liabilityApportionmentField.sendKeys("60");
+        try
+        {
+            Thread.sleep(5000);
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
     }
+
 
     public void clickOnTheNextStepButton(){
         nextButton2.click();
