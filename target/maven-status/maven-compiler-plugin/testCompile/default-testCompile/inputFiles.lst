@@ -1,9 +1,12 @@
-C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\common\DriverLibrary.java
-C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\AppTest.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\hook\Hook.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\stepDefinitions\SearchCasesSteps.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\stepDefinitions\SubmitLBASteps.java
-C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\pages\BasePage.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\pages\LBAPage.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\pages\SearchCasesPage.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\pages\FullInstructionPage.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\common\DriverLibrary.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\stepDefinitions\SubmitFullInstructionSteps.java
+C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\pages\BasePage.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\common\Browsers.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\common\SuccessfulClick.java
 C:\workspace\HFPortal\src\test\java\azure\net\hfp\recoveries\runner\TestRunner.java

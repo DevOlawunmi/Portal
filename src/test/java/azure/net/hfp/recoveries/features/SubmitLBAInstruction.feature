@@ -23,9 +23,13 @@ Feature: Submit an LBA instruction
     And I select policyholder title
     And I enter the policyholder firstName "<firstName>"
     And I enter the policyholder lastName "<lastName>"
-    And I enter the outlay "<Outlay>"
     And I select liability decision dispute
-    And I enter liability apptmt
+    And I select liability agreed No
+    And I select outlay type vehicle repairs
+    And I enter repairs amount
+    And I enter policy excess
+    And I enter hire charges
+    And I enter misc charges
     And I click on the next step
     And I select third Party Title
     And I enter the thirdPartyFirstName "<thirdPartyFirstName>"

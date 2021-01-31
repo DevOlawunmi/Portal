@@ -83,20 +83,16 @@ lbaPage.enterAccidentDate(accidentDate);
 
 
     }
-    @And("I enter the outlay {string}")
-    public void iEnterTheOutlay(String outlay) {
-        lbaPage.enterOutlayAmount(outlay);
-    }
 
     @And("I select liability decision dispute")
     public void iSelectLiabilityDecisionDispute() {
         lbaPage.selectLiabilityDecision();
     }
-
-    @And("I enter liability apptmt")
-    public void iEnterLiabilityApptmt() {
-        lbaPage.enterLiabilityApportionment("60");
+    @And("I select liability agreed No")
+    public void iSelectLiabilityAgreedNo() {
     }
+
+
 
     @When("I click on the next step")
     public void i_click_on_the_next_step() {
@@ -202,6 +198,7 @@ lbaPage.clickOnSubmitButton();
     public void iClickOnTheSignOnButton() {
         lbaPage.clickOnSignOnButton();
     }
+
 
 
 }
