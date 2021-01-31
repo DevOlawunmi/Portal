@@ -86,12 +86,33 @@ lbaPage.enterAccidentDate(accidentDate);
 
     @And("I select liability decision dispute")
     public void iSelectLiabilityDecisionDispute() {
-        lbaPage.selectLiabilityDecision();
+
     }
     @And("I select liability agreed No")
     public void iSelectLiabilityAgreedNo() {
     }
+    @And("I select outlay type vehicle repairs")
+    public void iSelectOutlayTypeVehicleRepairs() {
+    }
 
+    @And("I enter repairs amount")
+    public void iEnterRepairsAmount() {
+
+    }
+
+    @And("I enter policy excess")
+    public void iEnterPolicyExcess() {
+
+    }
+
+    @And("I enter hire charges")
+    public void iEnterHireCharges() {
+
+    }
+
+    @And("I enter misc charges")
+    public void iEnterMiscCharges() {
+    }
 
 
     @When("I click on the next step")

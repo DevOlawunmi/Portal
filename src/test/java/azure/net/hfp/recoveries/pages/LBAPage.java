@@ -33,12 +33,14 @@ public class LBAPage extends BasePage {
     private WebElement policyholderFirstNameField;
     @FindBy (xpath = "//*[@id=\"formly_23_appInput_policyholderLastName_5\"]")
     private WebElement policyholderLastNameField;
-    @FindBy (xpath = "//*[@id=\"formly_23_appInput_outlayAmount_6\"]")
-    private WebElement outlayAmountField;
-    @FindBy (xpath = "//*[@id=\"formly_23_appStaticSelect_liabilityDecision_8\"]")
-    private WebElement liabilityDecisionField;
-    @FindBy (xpath = "//*[@id=\"formly_23_appInput_liabilityApportionment_9\"]")
-    private WebElement liabilityApportionmentField;
+    @FindBy (xpath = "//*[@id=\"formly_27_appStaticSelect_liabilityDecision_6\"]")
+    private WebElement liabilityDecisionDispute;
+    @FindBy (xpath = "//*[@id=\"formly_27_appRadio_liabilityAgreed_7_1\"]")
+    private WebElement liabilityAgreedNo;
+    @FindBy (xpath = "//*[@id=\"formly_33_appRadio_outlayType_0_0\"]")
+    private WebElement outlayVehicleRepairs;
+
+
     @FindBy (xpath= "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/div/button")
     private WebElement nextButton2;
     @FindBy (xpath = "//*[@id=\"formly_26_appStaticSelect_title_0\"]/div")
@@ -136,25 +138,8 @@ public class LBAPage extends BasePage {
 
     }
 
-    public void enterOutlayAmount(String outlay){
-        outlayAmountField.sendKeys(outlay);
-    }
 
-    public void selectLiabilityDecision(){
-        liabilityDecisionField.click();
-    }
 
-    public void enterLiabilityApportionment(String apptmt){
-        liabilityApportionmentField.sendKeys("60");
-        try
-        {
-            Thread.sleep(5000);
-        }
-        catch(InterruptedException ex)
-        {
-            Thread.currentThread().interrupt();
-        }
-    }
 
 
     public void clickOnTheNextStepButton(){
