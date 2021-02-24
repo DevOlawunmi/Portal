@@ -19,7 +19,7 @@ Feature: Submit an LBA instruction
     And I enter a "<reference>"
     And I click on next step
     And I enter the "<accidentDate>"
-    And I select personal policyholder
+   # And I select personal policyholder
     And I select policyholder title
     And I enter the policyholder firstName "<firstName>"
     And I enter the policyholder lastName "<lastName>"

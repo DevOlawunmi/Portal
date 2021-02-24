@@ -62,7 +62,7 @@ lbaPage.enterAccidentDate(accidentDate);
 
     @And("I select personal policyholder")
     public void iSelectPersonalPolicyholder() {
-        lbaPage.selectPrivatePH();
+     //   lbaPage.selectPrivatePH();
     }
 
 
@@ -86,7 +86,7 @@ lbaPage.enterAccidentDate(accidentDate);
 
     @And("I select liability decision dispute")
     public void iSelectLiabilityDecisionDispute() {
-
+lbaPage.selectLiabilityDecision();
     }
     @And("I select liability agreed No")
     public void iSelectLiabilityAgreedNo() {

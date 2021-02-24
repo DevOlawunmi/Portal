@@ -23,17 +23,17 @@ public class LBAPage extends BasePage {
     private WebElement nextButton1;
     @FindBy(id = "formly_6_appStaticSelect_bacs_4")
     private WebElement zurichList;
-    @FindBy (xpath = "//*[@id=\"formly_23_appDatepicker_accidentDate_0\"]")
+    @FindBy (xpath = "//*[@id=\"formly_24_appDatepicker_accidentDate_0\"]")
     private WebElement accidentDateField;
-   @FindBy (xpath = "//*[@id=\"formly_23_appRadio_policyholderPersonalOrCommercial_1_0\"]")
-   private WebElement privatePH;
-    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[2]/app-static-select-field/div/mat-form-field")
+   //@FindBy (xpath = "//*[@id=\"formly_23_appRadio_policyholderPersonalOrCommercial_1_0\"]")
+   // private WebElement privatePH;
+    @FindBy (xpath = "/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[1]/app-card-wrapper/div/div[2]/formly-group/formly-field[4]/app-static-select-field/div/mat-form-field")
     private WebElement policyholderTitleField;
-    @FindBy (xpath = "//*[@id=\"formly_23_appInput_policyholderFirstName_4\"]")
+    @FindBy (id = "formly_24_appInput_policyholderFirstName_4")
     private WebElement policyholderFirstNameField;
-    @FindBy (xpath = "//*[@id=\"formly_23_appInput_policyholderLastName_5\"]")
+    @FindBy (id = "formly_24_appInput_policyholderLastName_5")
     private WebElement policyholderLastNameField;
-    @FindBy (xpath = "//*[@id=\"formly_27_appStaticSelect_liabilityDecision_6\"]")
+    @FindBy (id = "formly_24_appStaticSelect_liabilityDecision_6")
     private WebElement liabilityDecisionDispute;
     @FindBy (xpath = "//*[@id=\"formly_27_appRadio_liabilityAgreed_7_1\"]")
     private WebElement liabilityAgreedNo;
@@ -97,7 +97,7 @@ public class LBAPage extends BasePage {
     {
 
         driver.findElement(By.xpath("/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field/app-card-wrapper/div/div[2]/formly-group/formly-field[5]/app-static-select-field/div/mat-form-field")).click();
-        String winHandleBefore = driver.getWindowHandle();
+        String winHandleBefore = driver.getWindowHandle(); // what does this mean?
         driver.switchTo().window(winHandleBefore);
         WebElement element = driver.findElement(By.id("formly_6_appStaticSelect_bacs_4"));
         Actions actions = new Actions(driver);
@@ -106,7 +106,7 @@ public class LBAPage extends BasePage {
     }
 
     public void enterAccidentDate(String accidentDate){
-        waitForElementToBeClickable(accidentDateField);
+       // waitForElementToBeClickable(accidentDateField);
         accidentDateField.sendKeys(accidentDate);
 
     }
@@ -116,26 +116,31 @@ public class LBAPage extends BasePage {
         nextButton1.click();
     }
 
-    public void selectPrivatePH(){
-        privatePH.click();
-    }
+   // public void selectPrivatePH(){
+   //     privatePH.click();
+  //  }
 
     public void selectPolicyholderTitle(){
-        driver.findElement(By.xpath("//*[@id=\"formly_23_appStaticSelect_policyholderTitle_3\"]")).click();
-        WebElement element2 = driver.findElement(By.xpath(
-                "//*[@id=\"formly_23_appStaticSelect_policyholderTitle_3\"]/div/div[1]"));
+        driver.findElement(By.xpath("/html/body/app-root/app-content-wrapper-slim/app-lba-instruction/div/app-form/div/div/div[2]/div/app-form-container/form/formly-form/formly-field[1]/app-card-wrapper/div/div[2]/formly-group/formly-field[4]/app-static-select-field/div/mat-form-field")).click();
+        WebElement element2 = driver.findElement(By.id("formly_24_appStaticSelect_policyholderTitle_3"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element2).click().perform();
     }
 
     public void enterPolicyholderFirstName(String firstName){
-       waitForElementToBeDisplayed(policyholderFirstNameField);
+     //  waitForElementToBeDisplayed(policyholderFirstNameField);
         policyholderFirstNameField.sendKeys(firstName);
     }
 
     public void enterPolicyholderLastName(String lastName){
         policyholderLastNameField.sendKeys(lastName);
 
+    }
+    public void selectLiabilityDecision(){
+        liabilityDecisionDispute.click();
+        WebElement element = driver.findElement(By.xpath("//*[@id=\"formly_24_appStaticSelect_liabilityDecision_6\"]"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(element).click().perform();
     }
 
 
