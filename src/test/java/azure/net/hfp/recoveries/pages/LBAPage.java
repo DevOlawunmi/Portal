@@ -35,7 +35,7 @@ public class LBAPage extends BasePage {
     private WebElement policyholderLastNameField;
     @FindBy (id = "formly_24_appStaticSelect_liabilityDecision_6")
     private WebElement liabilityDecisionDispute;
-    @FindBy (xpath = "//*[@id=\"formly_27_appRadio_liabilityAgreed_7_1\"]")
+    @FindBy (xpath = "//*[@id=\"formly_24_appRadio_liabilityAgreed_7_1\"]")
     private WebElement liabilityAgreedNo;
     @FindBy (xpath = "//*[@id=\"formly_33_appRadio_outlayType_0_0\"]")
     private WebElement outlayVehicleRepairs;
@@ -141,6 +141,11 @@ public class LBAPage extends BasePage {
         WebElement element = driver.findElement(By.xpath("//*[@id=\"formly_24_appStaticSelect_liabilityDecision_6\"]"));
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
+    }
+
+    public void selectLiabilityAgreedNo(){
+        liabilityAgreedNo.click();
+
     }
 
 

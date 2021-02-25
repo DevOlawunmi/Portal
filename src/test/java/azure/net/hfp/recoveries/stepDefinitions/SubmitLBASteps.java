@@ -90,6 +90,7 @@ lbaPage.selectLiabilityDecision();
     }
     @And("I select liability agreed No")
     public void iSelectLiabilityAgreedNo() {
+        lbaPage.selectLiabilityAgreedNo();
     }
     @And("I select outlay type vehicle repairs")
     public void iSelectOutlayTypeVehicleRepairs() {
